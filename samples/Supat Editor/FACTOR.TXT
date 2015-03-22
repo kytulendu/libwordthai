@@ -1,0 +1,282 @@
+             COMPUTER AS A TOOL FOR SOLVING SOME BREEDING PROBLEMS.
+        4. Preliminary Study on the Use of Factor Analysis in Analysing
+                              Animal Breeding Data
+
+         Supat Faarungsang Somchai Chantsavang and Charan Chantalakhana
+
+    Department of Animal Science Kasetsart University Nakornpathom Thailand
+
+
+                                    SUMMARY
+
+     Data on growth, feed efficiency, and backfat thickness of 179 performance
+tested pigs,   productivity of  741  sows of  the National Swine Research  and
+Training Center, simple measurement of 97 growing pigs of the Kasetsart animal
+farm,  Thailand  and 9999 records of  23  correlated traits from the simulated
+data  were analysed  by  the  method  of  factor  analysis.   According to the
+analysis,  six traits of simple measurement on conformation could be described
+by one common factor,  while  seven  sow  productivity  traits resulted in two
+factors  and  16  traits  of  performance  tested  pigs  were effected by four
+factors.   Ninety nine  percent  of  variation of the simulated population was
+explained.  Discussion on the result was made.
+
+
+                                  INTRODUCTION
+
+     It is accepted that  several  phenotype  of  animal may be developed from
+many  genetic  and non-genetic factors.  In another sense, the whole structure
+of population can not known without studying several traits.  In addition, one
+phenotype may be affected by a number of genetic  and non-gentic factors.  So,
+studying all traits in animal may be unnecessary redundancy  and means working
+on  the  same  things  repeatedly.   This  investigation  is  made  under  the
+hypothesis that several traits of the same group may be mainly affected by the
+same  genetic  and non-genetic factor which is "factor" in the factor analysis
+theorem.   The main purpose  of  this study  is to use factor analysis to find
+minimum number of traits that may be represent the whole population structure.
+It  also  aim  to present  the  analysis  of  simulated population that is the
+reversed  factor  analysis  technique  which required minimum number of normal
+distributed variables.
+
+
+                             MATERIALS AND METHODS
+
+     Ronningen  have  first  presented  the method of population simulation in
+1970.   Faarungsang  and Chantsavang (1982 a) at Kasetsart University, Bangkok
+applied it for several correlated traits as the following manners.
+
+     1.  construct possible correlation matrix of the population
+
+     2.  reduce  the  correlation  matrix  to  factor  matrix by the method of
+         factor analysis
+
+
+     3.  change factor matrix to phenotypic value of several traits
+
+     4.  determine optimum number of records
+
+     5.  adjust  the  simulated  phenotype to fit the real population by using
+         simple mathematical method.
+
+     The computer used for this study is IBM 3031 of  the National Statistical
+Office, Thailand.  Data of growth, feed efficiency, backfat thickness  of  179
+performance tested pigs (Faarungsang and Chantsavang 1981) and productivity of
+741 sows of the National Swine Research  and Training Center,  97 growing pigs
+of the Kasetsart animal farm,  Thailand (Faarungsang  and  Chantsavang, 1982b) 
+were analysed by factor procedure of the SAS(Bar and Goodnight,1972).  Program 
+for simulating 9999 records of animal population  developed  on  PL/1 language
+using  time  and  date  of running program as a primary random number to avoid 
+repeated population.
+
+
+                                    RESULT
+
+     The analysis on Lanrace growing pigs shown on Table 1 that body structure
+of  pigs  is one factor  controlled.  The score of body length, height, girth,
+loin, number of teats and body weight on the factor  were  0.80,  0.64,  0.93,
+0.87,  0.18  and  0.95  respectively.  Results of analysis as shown in Table 2
+revealed  that seven sow productivity traits are affected by two factors.  The
+score  of total litter weight, average litter size at birth, littersize, total
+and  average litter size at weaning on the first factor were 0.85, 0.97, 0.93,
+0.77  and  0.82  respectively.  The score of total litter size at birth and at
+weaning on the second factor were 0.98 and 0.98 respectively.  For performance
+tested  pigs,  the  statistical  analysis  as in Table 4 showed that 16 traits
+could  be  described  by four factors.  The score of pig weight at 14, 16, 18,
+20,  22  and  24 week,  body  length, and feed intake on the first factor were
+0.67, 0.75, 0.80, 0.84, 0.88, 0.89, 0.71 and 0.80 respectively.  The score for
+feed  conversion  ratio and feed efficiency on the second factor were 0.93 and
+-0.94  respectively.   The  score  for  two points of backfat thickness on the
+third  factor  were 0.89 and 0.92 respectively.  The score of pig weight at 5,
+8,  10  and  12  week  on  the fourth factor were  0.64,  0.78,  0.84 and 0.75
+respectively.
+
+     Twenty three traits of the 9999 records of simulated data were controlled
+by  four  factors as shown by the analysis in Table 3.  Ninety-nine percent of
+population  variation  is explained.   The score of the traits X1, Y1, P6, P7,
+P8,  P9,  N9 and  N8  on  the first factor were 0.84, -0.84, 0.92, 0.94, 0.91,
+0.89,  0.88  and 0.99 respectively.  The score of traits X4, N4, N3, N2 and N1
+on the second factor were -0.95, 0.87, 0.98, 0.88 and 0.87, respectively.  The
+score of traits X3, N7, N6  and N5 on the third factor were 0.84, -0.98, -0.99
+and -0.75, respectively.  The score of traits X2, P1, P2, P3, P4 and P5 on the
+fourth factor were 0.95, 0.98, 0.93, 0.86, 0.69 and 0.70, respectively.
+
+Table 1  Factor analysis of simple measurement traits of pigs
+
+-----------------------------------------------------------------------
+
+Trait                     eigen vectors                factor matrix
+
+-----------------------------------------------------------------------
+
+body length                 .42                            .80
+height                      .34                            .64
+girth                       .44                            .93
+loin                        .45                            .87
+number of teats             .10                            .18
+body weight                 .50                            .95
+
+Variance (%)                                               100
+Cumulative eigen values (%)                                .59
+
+-----------------------------------------------------------------------
+
+
+
+Table 2.  Factor analysis of sow productivity traits
+
+-----------------------------------------------------------------------
+
+Trait                             eigen vectors       factor matrix
+
+                                   1         2          1        2
+-----------------------------------------------------------------------
+
+Total litter weight at birth      .39      -.28        .85      .04
+Average litter size at birth      .41      -.09        .79      .28
+Litter size at weaning            .43      -.26        .93      .10
+Total litter weight at weaning    .37      -.20        .77      .11
+Average litter size at weaning    .43      -.09        .82      .29
+Total litter size at birth        .29       .63        .16      .98
+Total litter size at weaning      .30       .63        .17      .98
+
+Variance (%)                                            63       37
+Cumulative eigen values (%)                             58       81
+
+-----------------------------------------------------------------------
+
+Table 3.  Factor analysis of simulated data
+
+-----------------------------------------------------------------------
+
+Traits*                eigen vectors             factor matrix
+
+              1        2       3      4      1      2      3       4
+
+-----------------------------------------------------------------------
+
+X1          .26       .01     .25    .15    .84    .09    .54     .02
+Y1         -.26      -.01    -.25   -.15   -.84   -.09   -.54    -.02
+P6          .25       .21    -.12   -.18    .92   -.02   -.38     .11
+P7          .28       .14    -.10   -.17    .94   -.16   -.25     .18
+P8          .21       .28     .16   -.14    .91    .39    .10    -.01
+P9          .30      -.03     .05   -.21    .89   -.40    .19     .07
+N9         -.32      -.01    -.05    .07    .88    .26   -.22     .33
+N8         -.28      -.16     .01    .19    .99    .05    .10    -.09
+X4         -.02       .34     .18    .25    .07   -.95    .09     .29
+N4         -.10       .39    -.06    .13   -.04    .87   -.48     .09
+N3         -.12       .37     .09    .14   -.10    .98   -.16    -.02
+N2         -.18       .23     .29    .12    .27    .88    .30    -.21
+N1         -.16       .31     .23   -.07   -.01    .87    .07    -.49
+X3         -.11      -.24     .33    .11   -.51   -.04    .84    -.13
+N7         -.11       .15    -.41   -.04    .20    .02   -.98    -.05
+N6         -.06       .19    -.41   -.00   -.07    .08   -.99    -.09
+N5         -.14       .01    -.31   -.31   -.13   -.27   -.75     .58
+X2          .16      -.13    -.14    .38   -.10   -.27   -.04     .95
+P1          .19       .05    -.15    .37    .15    .03   -.14     .98
+P2          .21       .13    -.12    .33    .30    .15   -.16     .93
+P3          .18      -.16     .06    .36   -.00   -.19    .45     .86
+P4          .26      -.19    -.16    .13    .31   -.64    .02     .69
+P5          .25       .23    -.03    .19    .64    .31   -.09     .70
+
+Variance (%)                                 33     23     21      23
+Cumulative eigen value (%)                   40     62     82      99
+
+-----------------------------------------------------------------------
+* X1 to X4  = principal component for simulating data
+        Y1  = negative value of X1
+  P1 to P9  = Phenotype that correlated to X1 0.1 to 0.9 respectively
+  N1 to N9  = Phenotype that correlated to X1 -0.1 to -0.9 respectively
+
+Table 4. Factor analysis of performance tested pigs
+
+-----------------------------------------------------------------------
+Trait*               eigen vectors                 factor matrix
+
+             1        2        3        4      1      2      3      4
+-----------------------------------------------------------------------
+W14        .30      -.12     -.21     -.07    .67   -.20   -.04    .62
+W16        .32       .04     -.09     -.07    .75   -.22    .11    .50
+W18        .33       .01     -.03     -.09    .80   -.21    .17    .44
+W20        .33      -.01      .02     -.13    .84   -.25    .21    .33
+W22        .32      -.10      .07     -.19    .88   -.24    .22    .21
+W24        .31      -.11      .06     -.21    .89   -.25    .20    .20
+FI         .27      -.02      .17     -.07    .71   -.05    .31    .23
+LN         .18       .14      .49     -.43    .80    .50    .15   -.10
+FC        -.13       .50      .32     -.03   -.23    .93   -.11    .09
+FE        - 12      -.52     -.32      .07    .19   -.94    .14   -.10
+BF1        .19      -.19      .38      .48    .26   -.12    .89    .12
+BF2        .16      -.21      .42      .47    .24   -.10    .92    .03
+W5         .10       .30     -.06      .35   -.03    .19    .14    .64
+W8         .19       .32     -.15      .24    .22    .10    .06    .78
+W10        .24       .31     -.21      .17    .36    .03   -.01    .84
+W12        .27       .19     -.23      .13    .44   -.15    .03    .75
+
+Varience (%)                                   42     18     15     25
+Cumulative eigen values (%)                    51     67     72     85
+-----------------------------------------------------------------------
+* W5 to W24 = Weight at 5 to 24 week, respectively
+  LN = Body length at 24 week
+  FI = Feed Intake from 10 to 24 week
+  FC = Feed conversion ratio
+  FE = Feed efficiency
+  BF1 and BF2 = Backfat at position 1 and 2
+  
+  
+                            CONCLUSION AND DISCUSSION
+
+     Body weigth could be used to represent simple measurement of conformation
+of growing pig because it explained maximum variation of the population.   Two
+factors  for  sow  productivity traits implied such two traits as total litter
+size  at  birth  and  at  weaning  measure the same thing.  Thus, using factor
+analysis  may  help  the  herd man to collect only some neccessary traits that
+could be used to explain the whole structure of population.
+
+     The  16  traits  of  performance  tested pigs may be classified into four
+group namely "finished growth" for weight between  14 to 24 week, feed intake,
+and body length,  "growth efficiency"  for  feed  conversion  ratio  and  feed
+efficiency,  "carcass quality" for two points of backfat thickness and "growth
+development" for weights between 5 to 12 week.
+
+     The  simulated data was originally four components namely X1 to X4.  When
+traceback  it  resulted four factors but swapped the element of X2 and X4.  It
+suggested that the data simulated by reversed factor analysis was possible and
+the result may be the same as previously defined.  In addition, it may be used
+for  learning  in  animal  breeding  because  it  required  few  random normal
+distributed  variables  to  generate a very large number of correlated traits.
+The  traits  may  be  classified in to  5 groups such as growth, efficiency of
+growth,  carcass quality,  fertility  and conformation which each group may be
+composed  by  hundreds  of traits.  This may be a serious problem on selection
+and the method of factor analysis may solved it by resulting the proper traits
+that represent the whole structure of population and may be the primary source
+of variation for selection.
+
+
+                                 ACKNOWLEDGEMENT
+
+     This  study  was  supported  by  the  Kasetsart  University  Research and
+Development Institute, Bangkok, Thailand.
+
+
+                                   REFERENCES
+
+Barr, A.J.  and  J.H.  Goodnight.   1972.   A  user  guide  to the Statistical
+Analysis System.  North Carolina State Univ., Raleigh, North Carolina.
+
+Faarungsang,  S.  and  S. Chantsavang , 1981.  Heritability of some production
+traits of pure bred pigs at Tabkwang station in 1980.  19th Proceedings of the
+National  Conference  on Agricultural and Biological Sciences.  February,1981.
+Kasetsart University.  Bangkok.  Thailand.
+
+Faarungsang, S. and S. Chantsavang , 1982 a.  Computer simulation for studying
+some  genetic  effects.   2nd  Symposium on Statistics.  July, 1982.  National
+Institute of Development and Administration, Bangkok Thailand.
+
+Faarungsang, S.  and  S. Chantsavang , 1982 b.  Preliminary  study  on  linear
+condition  index  of growing pigs.   2nd World Congress on Genetics Applied to
+Animal Production October, 1982.  Madrid, Spain.
+
+Ronningen, K.  1970.   Studies  on  selection  in  animal  breeding.   2.  The
+efficieny  of  selection  based  on the combination of performance testing and
+progeny testing compared with selection based only on performance testing when
+testing capacity is limited.  Acta Agric.  Scand.  20, 71-103.
+
+

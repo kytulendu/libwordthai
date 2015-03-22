@@ -1,0 +1,213 @@
+
+          Computer as a tool for solving some breeding problems.
+          3. Microcomputer program for generation mean analysis.
+           Supat Faarungsang, Somchai Chantsavang, Uthai Kanto,
+               Surin Piyachoknakul and Saowanee Suputtitada.
+                   Kasetsart University Bangkok, Thailand.
+                           
+                           GENETIC MODEL
+
+The individual phenotype is in the model given by :
+
+                  Yijk =    + Gi + Rij + Eijk.
+
+where Yijk is the phenotype of kth individual in the jth plot
+              in the ith generation.
+           is the effect common to all individual,
+        Gi is the effect common to the ith generation,
+       Rij is the effect common to the jth plot in the ith generation,
+      Eijk is the random effect common to all individual.
+
+The genetic effect were estimated by the method of Mather and Jink(1971)
+as the following :
+
+          m = 1/2*P1 + 1/2*P2 + 4*F2 - 2*BC1 - 2*BC2
+          a = 1/2*P1 - 1/2*P2
+          d = -3/2*P1 - 3/2*P2 - F1 - 8*F2 + 6*BC1 + 6*BC2
+         aa = -4*F2 + 2*BC1 + 2*BC2
+         ad = -P1 + P2 + 2*BC1 - 2*BC2
+         dd = P1 + P2 + 2*F1 + 4*F2 - 4*BC1 - 4*BC2
+
+where m is effect of mean which is the mid point between homozygous
+           recessive and homozygous dominance,
+      a is the additive gene effect,
+      d is the dominance gene effect,
+     aa is the additive by additive gene effect,
+     ad is the additive by dominance gene effect,
+     dd is the dominance by dominance gene effect,
+
+     P1,P2,F1,F2,BC1, AND BC2 are plot mean of paternal parent,
+maternal parent, the first filian, the second filian, backcross1 and
+backcross2 , respectively.
+
+     The value of m,a,d,aa,ad and dd were linear function of
+generation mean, so the variance for testing their significant would
+be computed by the method presented in Faarungsang et al (1984).
+
+The heterosis is estimated by the following formula :
+
+                Heterosis = F1 - HP /HP *100 %
+
+     where F1 is the generation mean of the first filian generation
+and HP is the generation mean of the higher parent generation.
+
+     Sampling error of the estimate of heterosis is computed as the
+following :
+
+            S.E.(heterosis) = sqr((R3xx+Rhxx)/(r3+rh))
+
+     Where R3xx is the sum of square of plot/F1 and Rhxx is the sum
+of square of Plot/higher parent.  The r3 is d.f.  of plot/F1 and rh
+is d.f.  of higher parent.
+
+     The heritability in broad sense is estimated by the following
+formula :
+
+               h**2 = V4 - (V1 + V2 + V3)/3 /V4
+
+where Vn are the variation of plant in the P1,P2,F1, and F2 generation
+, respectively.
+
+     The sampling error of the estimated heritability is computed by
+the method of Kempthorne (1973) which modified to be the following :
+
+          h**2 = (aV4+bV3+cV2+dV1)/(pV4+qV3+rV2+sV1)
+               = Y/T
+
+       V(h**2) = V(Y)/T**2 - 2X*COV(Y,T)/T**3 + X**2V(T)/T**4
+
+where V(Y) = a**2V(V4) + b**2V(V3) + c**2V(V2) + d**2V(V1)
+      V(T) = p**2V(V4) + q**2V(V3) + r**2V(V2) + s**2V(V1)
+  Cov(Y,T) = apV(V4) + bqV(V3) + crV(V2) + dsV(V1)
+
+For computer routine the formula is modified to be the following :
+
+     V(h**2) = (V(Y) - 2h**2COV(Y,T) + h**4V(T))/T**2
+
+             = a**2V(V4) + b**2V(V3) + ... - 2aph**2V(V4) - ... 
+               +h**4p**2V(V4)+... /T**2
+
+             = ((a-ph**2)V(V4) + (b-qh**2)V(V3) + ...)/T**2
+
+For the particular generation mean analysis the value of a,b,c,d,p,q,r,
+and s are 1,1/3,1/3,1/3,1,0,0 and 0, respectively.
+
+It was known that V1,V2,V3 and V3 is mean square, so, the variance
+V(V4) ... V(V4) will be  estimated by the formula
+
+                   V(MS) = (MS**2)/(df+2)
+
+Thus, the sampling error of the estimated heritability is solved out.
+
+The genetic correlations is estimated by the formula :
+
+                 rG = c12/SQR(c11*c22)
+                 
+                c12 = wxy - (w1xy+w2xy+w3xy)/3
+                c11 = wxx - (w1xx+w2xx+w3xx)/3
+                c22 = wyy - (w1yy+w2yy+w3yy)/3
+
+     where rG is the estimates of genetic correlations,
+          c12 is the covariance between trait1 and trait2,
+  c11 and c22 is the variance of trait1 and trait2,respectively.
+
+     w1xx,w1yy,w1xy,...,w4xy are the variance or covariance
+corresponded to the estimates of MS or MCP shown in Table 1.
+
+     The estimate of sampling error of genetic correlation was
+computed by the method presented in Faarungsang et al (1984).
+
+                        NUMERICAL EXAMPLE
+
+Table 2. Analysis on XX=Weight  AND YY=Number Fruit
+
+Generation Mean Analysis in plant breeding by S. Faarungsang            
+
+                Heterosis       Variance        t-value
+Heterosis of 1  3.5148          6.8946          1.45382
+Heterosis of 2  55.9674         .390204         7.55405
+Sum of Squares
+--------------------------------------------------------------------------- 
+ Source         df              SS(xx)          SS(yy)          SS(xy)
+--------------------------------------------------------------------------- 
+Generation      5               19012           126.821         -1.36406E+07
+Plot/Generation 18              106942          133.736         -2973.75
+ Rp/PARENT1     1               191.695         2.62977         22.4567
+ Rp/PARENT2     1               1286.47         .096472         -11.1344
+ Rp/F1          1               92.0559         1.78573         12.8271
+ Rp/F2          9               68726.4         91.736          -1855.67
+ Rp/BACKCROSS1  3               13990.6         18.0703         -497.615
+ Rp/BACKCROSS2  3               22654.7         19.4181         -644.587
+Plant/Plot/Gen. 155             566077          422.571         -11639.3
+ Pl/PARENT1     13              5796.75         12.3036         -136.031
+ Pl/PARENT2     13              13345.1         12.3035         -267.205
+ Pl/F1          12              7225.5          16.5714         -295.895
+ Pl/F2          65              402757          263.411         -8494.9
+ Pl/BACKCROSS1  27              80347.3         67.6071         -1394.54
+ Pl/BACKCROSS2  25              56602           50.375          -1050.65
+--------------------------------------------------------------------------- 
+Total           178             692031          683.128         -1.36552E+07
+--------------------------------------------------------------------------- 
+Mean square
+--------------------------------------------------------------------------- 
+ Source         df              MS(xx)          MS(yy)          MS(xy)
+--------------------------------------------------------------------------- 
+Generation      5               3802.4          25.3643         -2.72812E+06
+Plot/Generation 18              5941.22         7.42977         -165.208
+ Rp/PARENT1     1               191.695         2.62977         22.4567
+ Rp/PARENT2     1               1286.47         .096472         -11.1344
+ Rp/F1          1               92.0559         1.78573         12.8271
+ Rp/F2          9               7636.27         10.1929         -206.186
+ Rp/BACKCROSS1  3               4663.55         6.02343         -165.872
+ Rp/BACKCROSS2  3               7551.55         6.4727          -214.862
+Plant/Plot/Gen. 155             3652.11         2.72627         -75.0919
+ Pl/PARENT1     13              445.904         .946428         -10.4639
+ Pl/PARENT2     13              1026.54         .946425         -20.5542
+ Pl/F1          12              602.125         1.38095         -24.6579
+ Pl/F2          65              6196.25         4.05247         -130.691
+ Pl/BACKCROSS1  27              2975.82         2.50397         -51.6494
+ Pl/BACKCROSS2  25              2264.08         2.015           -42.0259
+--------------------------------------------------------------------------- 
+Variance of Generation Mean
+--------------------------------------------------------------------------- 
+ Source         df              Var(x)          Var(y)
+--------------------------------------------------------------------------- 
+ Pl/PARENT1     15              29.7269         .0630952
+ Pl/PARENT2     15              68.4362         .063095
+ Pl/F1          14              43.0089         .0986394
+ Pl/F2          75              82.6167         .054033
+ Pl/BACKCROSS1  31              95.9943         .0807731
+ Pl/BACKCROSS2  29              78.0717         .0694828
+--------------------------------------------------------------------------- 
+Generation      Mean XX         Mean YY
+
+PARENT1         285.179         5.26667         
+PARENT2         253.423         6.8
+F1              295.202         8.21429         
+F2              279.037         5.22667         
+BACKCROSS1      271.088         5.54839         
+BACKCROSS2      289.168         5.72414         
+---------------------------------------------------------------------------
+Source           Effect          Variance        SE              t-value
+--------------------------------------------------------------------------- 
+Mean            264.937         2042.67         45.1959         5.86198
+Additive        15.8777         24.5408         4.95387         3.20511
+Dominance       26.1327         12392.5         111.322         .234749
+Add*Add         4.36353         2018.13         44.9236         .0971321
+Dom*Dom         4.13202         4377.12         66.1598         .0624551
+Add*Dom         4.4043          794.427         28.1856         .156261
+--------------------------------------------------------------------------- 
+
+Estimate of HERITABILITY of Weight
+
+Generat .832595E+00 # .501058E-01  Var:  .515897E+04 # .310469E+03
+
+Estimate of HERITABILITY of Number Fruit
+
+Generat .596073E+00 # .118550E+00  Var:  .241557E+01 # .480422E+00
+
+Estimate of GENETIC Correlations of Weight AND Number Fruit
+
+rG   rG & SE. :  -.921350E+00 .287660E+00
+
+
