@@ -1,7 +1,5 @@
 #CU-Writer File Format
 
-Todo: may do CWW77 format, RW, RAMA, iRC Standard Word, etc.
-
 Use both KU and TIS-620 for character encoding, look like WordStar file format.
 
 ##Control Code
@@ -39,8 +37,6 @@ This meant that regular text lines couldn't start with dots.
 
 Note: Can use lower case.
 
-Todo: Math dot command
-
     .PA					Page break
     .PN n				Set current page number, n is integer
     .PO n				Set left margin
@@ -56,13 +52,10 @@ Todo: Math dot command
 
 ###Option
 
-At end of file, 111 byte, CU-Writer version 1.5 or newer.
-
-รวมคำย่อด้วย <Alt><M>
+After end of file, 110 byte, CU-Writer version 1.5 or newer.
 
 |           Hex           | ASCII Char |            Meaning            |
 |:-----------------------:|:----------:|:----------------------------- |
-| 1A                      |            | Header?                       |
 | 4F 50 54 20 31 2E 35 30 | OPT 1.50   | Signature                     |
 | xx                      |            | 00=KU, 01=TIS-620             |
 | 00 00 00 00 00 00 00 00 |            |                               |
