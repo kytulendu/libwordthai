@@ -1,9 +1,9 @@
-#CU-Writer File Format
+# CU-Writer File Format
 
-Use both KU and TIS-620 for character encoding, look like WordStar file format.
+Use both KU and TIS-620 for character encoding, similar to WordStar file format.
 
-##Control Code
-        
+## Control Code
+
 | Hex | ASCII Char |       Key      |            Meaning            |
 |:---:|:----------:|:--------------:|:----------------------------- |
 | 02  |    STX     | `<Ctrl><P><B>` | Toggles Bold mode             |
@@ -18,39 +18,40 @@ Use both KU and TIS-620 for character encoding, look like WordStar file format.
 | 1B  |            |                | Unknown, at begin of line (CW16N22) |
 | 8D  |            |                | Soft Carriage Return (inserted, followed by newline CR+LF (0D 0A), to mark soft line break at word-wrap) |
 
-###Table code
+### Table code
 
 The character in hex use to create table below.
 
     98 95 91 95 99
     96          96
     93 95 8f 95 92
-    96          96
+    96    96    96
     9a 95 90 95 9b
 
-![Table](http://i.imgur.com/51lXt3j.png)
+![Table](./resources/CW_table.png)
 
-###Dot Command
+## Dot Command
 
 These commands are intended to be on a line by themselves, and started with the dot (.).
-This meant that regular text lines couldn't start with dots. 
+This meant that regular text lines couldn't start with dots.
 
 Note: Can use lower case.
 
-    .PA					Page break
-    .PN n				Set current page number, n is integer
-    .PO n				Set left margin
-    .PR n				Set right margin
-    .HE text			Page heading
-    .FO text			Page footing
-    .PT	text			Page title (at front of page number, like Page 23 )
-    .DF filename		Open file contain name list in filename for mailmerge, CSV file format
-    .RV v1,v2,v3,...	Use value, &v1& &v2& ..., less than 15 variable, variable name less than 20 character long
-                        data less than 40 character (count space)
-    .SK					Mark end of mailmerge, at end of letter
-    .CW n				Character per inch, default 10 : 5, 12, 15, 20, 10
+    .PA                 Page break
+    .PN n               Set current page number, n is integer
+    .PO n               Set left margin
+    .PR n               Set right margin
+    .HE text            Page heading
+    .FO text            Page footing
+    .PT text            Page title (at front of page number, like Page 23 )
+    .DF filename        Open file contain name list in filename for mailmerge, CSV file format
+    .RV v1,v2,v3,...    Use value, &v1& &v2& ..., less than 15 variable,
+                        variable name is less than 20 character long
+                        data is less than 40 character (count space)
+    .SK                 Mark end of mailmerge, at end of letter
+    .CW n               Character per inch, default 10 : 5, 12, 15, 20, 10
 
-###Option
+## Options
 
 After end of file, 110 byte, CU-Writer version 1.5 or newer.
 
