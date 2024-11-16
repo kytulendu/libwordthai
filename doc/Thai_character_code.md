@@ -1,5 +1,7 @@
 # Thai Character Encoding
 
+For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
+
 ## Kaset Thai character encoding
 
 This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
