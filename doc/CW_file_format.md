@@ -45,15 +45,23 @@ Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-
 
 ### Table code
 
-The character in hex use to create table below.
+These character was use as box-drawing characters for making table in CU-Writer.
 
-    98 95 91 95 99
-    96          96
-    93 95 8f 95 92
-    96    96    96
-    9a 95 90 95 9b
+Kaset-CW character encoding have different table code.
 
-![Table](https://raw.githubusercontent.com/wiki/kytulendu/CW141/resources/CW_table.png)
+| TIS-620 | Kaset | Character |
+|:-------:|:-----:|:---------:|
+| 8F | 8A | ┼ |
+| 90 | 88 | ┴ |
+| 91 | 89 | ┬ |
+| 92 | 87 | ┤ |
+| 93 | 86 | ├ |
+| 95 | 85 | ─ |
+| 96 | 84 | │ |
+| 98 | 80 | ┌ |
+| 99 | 81 | ┐ |
+| 9A | 82 | └ |
+| 9B | 83 | ┘ |
 
 ### CU Writer for Windows 77
 
