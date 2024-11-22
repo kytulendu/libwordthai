@@ -40,8 +40,10 @@ Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-
 | 1C  |    [FS]    | `<Ctrl><U><S>` | Toggles font 2, computer font style, CU-Writer 1.6 |
 | 1D  |    [GS]    | `<Ctrl><U><S>` | Toggles font 3, CU-Writer 1.6 |
 | 1E  |    [RS]    | `<Ctrl><U><S>` | Toggles font 4, similar to font 1 but have characters for German and French, CU-Writer 1.6 |
-| 8D  |            |                | Soft Carriage Return (inserted, followed by newline CR+LF (0D 0A) to mark soft line break at word-wrap) |
+| 8D  |            |                | Soft Carriage Return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
 | A0  |            |                | zero-width space, inserted from Thai word separator software like Rama SpellCheck and iRC ZeWrite. Used by Desktop Publishing software to help separate Thai words. This character is not displaying a visible space in the rendered text. |
+
+**Note:** Soft Carriage Return on TIS-620 is `8D`, on Kaset-CW is `F3`.
 
 ### Table code
 
@@ -88,8 +90,8 @@ Note: Can use lower case.
 | .FO text     | Page footing                                        |
 | .PT text     | Page title (at front of page number, like Page 23 ) |
 | .DF filename | Open file contain name list in `filename` for mailmerge, CSV file format |
-| .RV v1,v2,v3,... | Set variable for mailmerge, variable name is less than 20 character long, 15 variables maximum, Using &v1& &v2& ... on document. Data is less than 40 characters (count space). |
-| .SK          | Mark end of mailmerge, at end of letter             |
+| .RV v1,v2,v3,... | Set variable for mailmerge, variable name is less than 20 character long, 15 variables maximum, Using &v1& &v2& ... on document. Data is less than 40 characters. |
+| .SK          | Skip next record, normally used to mark end of mailmerge at end of letter. |
 | .CW n        | Character per inch, default 10 : 5, 12, 15, 20, 10  |
 
 ### Math equations support in CU-Writer 1.6
