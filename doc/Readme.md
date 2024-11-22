@@ -10,7 +10,7 @@
 - [CU-Writer and CU-Writer for Windows](CW_file_format.md)
 - Rajavithi Word PC and Rajavithi Word PC Math
 - Lampang Word
-- iRC Standard Word
+- [iRC Standard Word](iRC_Standard_Word_file_format.md)
 - Rama Spell Check
 - Supat Editor
 - Sahaviriya Word
