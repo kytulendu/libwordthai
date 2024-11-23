@@ -7,7 +7,7 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
 It was used mainly in microcomputer hardware and software before TIS-620 standard.
 
-The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`.
+The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) ` and `Yamakkan (อ๎)`.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -39,6 +39,8 @@ Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-
 
 Kaset-RW (Kaset Rajavithi Word PC) character encoding differs by adding Thai digit (80h-89h).
 
+**Note:** Early version 1.x did not have Thai digit, it will use Arabic number instead.
+
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 8x | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ |
@@ -56,8 +58,7 @@ Font used by Rajavithi Word PC
 
 ## TIS-620 Thai character encoding
 
-also known as Smo (สมอ.)
-
+Also known as Smo (สมอ.)
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
