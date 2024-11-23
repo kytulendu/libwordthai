@@ -24,7 +24,7 @@ Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, simil
 | 1A  | [SUB] | End-of-file character         |
 | 8D  |       | Soft Carriage Return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
 
-### Table code
+## Table code
 
 These character was use as box-drawing characters for making table in iRC Standard Word.
 

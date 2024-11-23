@@ -45,7 +45,15 @@ Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-
 
 **Note:** Soft Carriage Return on TIS-620 is `8D`, on Kaset-CW is `F3`.
 
-### Table code
+### CU Writer for Windows 77
+
+CU Writer for Windows added support for BMP (Bitmap) and WMF (Windows Metafile) image in document by insert it from clipboard.
+
+```
+09 0d 0a     /* signature */
+```
+
+## Table code
 
 These character was use as box-drawing characters for making table in CU-Writer.
 
@@ -64,14 +72,6 @@ Kaset-CW character encoding have different table code.
 | 99 | 81 | ┐ |
 | 9A | 82 | └ |
 | 9B | 83 | ┘ |
-
-### CU Writer for Windows 77
-
-CU Writer for Windows added support for BMP (Bitmap) and WMF (Windows Metafile) image in document by insert it from clipboard.
-
-```
-09 0d 0a     /* signature */
-```
 
 ## Dot Command
 
