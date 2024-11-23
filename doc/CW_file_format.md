@@ -86,12 +86,12 @@ Note: Can use lower case.
 | .PN n        | Set current page number                             |
 | .PO n        | Set left margin                                     |
 | .PR n        | Set right margin                                    |
-| .HE text     | Page heading                                        |
-| .FO text     | Page footing                                        |
-| .PT text     | Page title (at front of page number, like Page 23 ) |
+| .HE text     | Print page heading                                  |
+| .FO text     | Print page footing                                  |
+| .PT text     | Print page title (at front of page number, like Page 23 ) |
 | .DF filename | Open file contain name list in `filename` for mailmerge, CSV file format |
 | .RV v1,v2,v3,... | Set variable for mailmerge, variable name is less than 20 character long, 15 variables maximum, Using &v1& &v2& ... on document. Data is less than 40 characters. |
-| .SK          | Skip next record, normally used to mark end of mailmerge at end of letter. |
+| .SK          | Skip next record, normally used to mark end of mailmerge at end of letter. |
 | .CW n        | Character per inch, default 10 : 5, 12, 15, 20, 10  |
 
 ### Math equations support in CU-Writer 1.6
