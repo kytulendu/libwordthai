@@ -4,25 +4,25 @@ Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, simil
 
 ## Control Code
 
-| Hex | ASCII Char |            Meaning            |
-|:---:|:----------:|:----------------------------- |
-| 02  |   [STX]    | Toggles Bold mode             |
-| 03  |   [ETX]    | Toggles color printing mode, default is black |
-| 04  |   [EOT]    | Toggles Enlarge mode          |
-| 06  |   [ACK]    | In color printing mode, print red character |
-| 07  |   [BEL]    | In color printing mode, print blue character |
-| 08  |   [BS]     | In color printing mode, print purple character |
-| 0A  |   [LF]     |                               |
-| 0C  |   [FF]     | Toggles italic mode           |
-| 0D  |   [CR]     | Followed by 0A (line feed), indicate newline |
-| 0E  |   [SO]     | In color printing mode, print yellow character |
-| 10  |   [DLE]    | In color printing mode, print orange character |
-| 11  |   [DLE]    | In color printing mode, print green character |
-| 13  |   [DC3]    | Toggles underline mode        |
-| 14  |   [DC4]    | Toggles superscript mode      |
-| 16  |   [SYN]    | Toggles subscript mode        |
-| 1A  |   [SUB]    | End-of-file character         |
-| 8D  |            | Soft Carriage Return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
+| Hex | ASCII |            Meaning            |
+|:---:|:-----:|:----------------------------- |
+| 02  | [STX] | Toggles Bold mode             |
+| 03  | [ETX] | Toggles color printing mode, default is black |
+| 04  | [EOT] | Toggles Enlarge mode          |
+| 06  | [ACK] | In color printing mode, print red character |
+| 07  | [BEL] | In color printing mode, print blue character |
+| 08  |  [BS] | In color printing mode, print purple character |
+| 0A  |  [LF] |                               |
+| 0C  |  [FF] | Toggles italic mode           |
+| 0D  |  [CR] | Followed by 0A (line feed), indicate newline |
+| 0E  |  [SO] | In color printing mode, print yellow character |
+| 10  | [DLE] | In color printing mode, print orange character |
+| 11  | [DLE] | In color printing mode, print green character |
+| 13  | [DC3] | Toggles underline mode        |
+| 14  | [DC4] | Toggles superscript mode      |
+| 16  | [SYN] | Toggles subscript mode        |
+| 1A  | [SUB] | End-of-file character         |
+| 8D  |       | Soft Carriage Return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
 
 ### Table code
 
