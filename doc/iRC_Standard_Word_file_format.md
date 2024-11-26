@@ -6,9 +6,9 @@ Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, simil
 
 | Hex | ASCII |            Meaning            |
 |:---:|:-----:|:----------------------------- |
-| 02  | [STX] | Toggles Bold mode             |
+| 02  | [STX] | Toggles bold mode             |
 | 03  | [ETX] | Toggles color printing mode, default is black |
-| 04  | [EOT] | Toggles Enlarge mode          |
+| 04  | [EOT] | Toggles enlarge mode          |
 | 06  | [ACK] | In color printing mode, print red character |
 | 07  | [BEL] | In color printing mode, print blue character |
 | 08  |  [BS] | In color printing mode, print purple character |
@@ -21,8 +21,8 @@ Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, simil
 | 13  | [DC3] | Toggles underline mode        |
 | 14  | [DC4] | Toggles superscript mode      |
 | 16  | [SYN] | Toggles subscript mode        |
-| 1A  | [SUB] | End-of-file character         |
-| 8D  |       | Soft Carriage Return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
+| 1A  | [SUB] | End-of-File character         |
+| 8D  |       | Soft carriage return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
 
 ## Table code
 

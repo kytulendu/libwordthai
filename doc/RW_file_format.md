@@ -34,11 +34,11 @@ Font used by Rajavithi Word PC
 
 | Hex | ASCII |       Key      |            Meaning            |
 |:---:|:-----:|:--------------:|:----------------------------- |
-| 02  | [SOH] | `<Ctrl><P><A>` | Toggles 12 characters/inch character size |
-| 02  | [STX] | `<Ctrl><P><B>` | Toggles Bold mode             |
-| 03  | [ETX] | `<Ctrl><P><C>` | Toggles Condensed mode        |
-| 04  | [EOT] | `<Ctrl><P><D>` | Toggles Double Strike mode    |
-| 05  | [ENQ] | `<Ctrl><P><E>` | Toggles Enlarge mode          |
+| 01  | [SOH] | `<Ctrl><P><A>` | Toggles 12 characters/inch character size |
+| 02  | [STX] | `<Ctrl><P><B>` | Toggles bold mode             |
+| 03  | [ETX] | `<Ctrl><P><C>` | Toggles condensed mode        |
+| 04  | [EOT] | `<Ctrl><P><D>` | Toggles double strike mode    |
+| 05  | [ENQ] | `<Ctrl><P><E>` | Toggles enlarge mode          |
 | 0A  |  [LF] |                |                               |
 | 0D  |  [CR] |                | Followed by 0A (line feed), indicate newline |
 | 0E  |  [SO] | `<Ctrl><P><N>` | Toggles 10 characters/inch character size |
@@ -49,13 +49,14 @@ Font used by Rajavithi Word PC
 | 15  | [ETB] | `<Ctrl><P><U>` | Toggles italic mode           |
 | 16  | [SYN] | `<Ctrl><P><V>` | Toggles subscript mode        |
 | 17  |  [SO] | `<Ctrl><P><W>` | Toggles 15 characters/inch character size, RW 2.0 |
-| 18  | [CAN] | `<Ctrl><P><X>` | Printing in Draft mode        |
+| 18  | [CAN] | `<Ctrl><P><X>` | Printing in draft mode        |
 | 19  |  [EM] | `<Ctrl><P><Y>` | Printing in NLQ mode          |
+| 1A  | [SUB] |                | End-of-File character         |
 | 1C  |  [FS] | `<Ctrl><P><0>` | Printing in font 1, RW 2.0    |
 | 1D  |  [GS] | `<Ctrl><P><1>` | Printing in font 2, RW 2.0    |
 | 1E  |  [RS] | `<Ctrl><P><2>` | Printing in font 3, RW 2.0    |
 | 1F  |  [US] | `<Ctrl><P><3>` | Printing in font 4, RW 2.0    |
-| 8D  |       |                | Soft Carriage Return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap), RW 2.3 |
+| 8D  |       |                | Soft carriage return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap), RW 2.3 |
 
 ## Table code
 
