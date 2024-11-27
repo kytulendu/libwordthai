@@ -4,9 +4,10 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 
 ## Software information
 - [Thai Character Encoding](Thai_character_code.md)
-- [CU-Writer and CU-Writer for Windows](sw_CU-Writer.md)
-- [Rajavithi Word PC](sw_Rajavithi_Word_PC.md)
-- [Rama Spell Check](sw_Rama_SpellCheck.md)
+- [CU-Writer (เวิร์ดจุฬา) and CU-Writer for Windows](sw_CU-Writer.md)
+- [Rajavithi Word PC (ราชวิถีเวิร์ดพีซี หรือ เวิร์ดราชวิถี)](sw_Rajavithi_Word_PC.md)
+- [Rama Spell Check (เวิร์ดรามา)](sw_Rama_SpellCheck.md)
+- [Thai Easy Writer (ขวัญใจนักพิมพ์ดีด)](sw_ThaiEasy_Writer.md)
 
 ## File formats
 - [CU-Writer and CU-Writer for Windows](CW_file_format.md)
@@ -19,5 +20,5 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 - RLAB Word
 - Sahaviriya Word
 - Supat Editor
-- Thai Easy Writer
+- [Thai Easy Writer](ThaiEasy_file_format.md)
 - Venus Word Processor
