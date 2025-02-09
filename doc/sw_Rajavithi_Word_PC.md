@@ -45,7 +45,7 @@
 
 ## รูปแบบไฟล์
 
-[รูปแบบไฟล์](https://github.com/kytulendu/RajavithiWordPC/wiki/File-Format)
+[รูปแบบไฟล์](fmt_Rajavithi_Word_PC.md)
 
 ## ลิงค์ดาวน์โหลด
 

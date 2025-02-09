@@ -10,15 +10,15 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 - [Thai Easy Writer (ขวัญใจนักพิมพ์ดีด)](sw_ThaiEasy_Writer.md)
 
 ## File formats
-- [CU-Writer and CU-Writer for Windows](CW_file_format.md)
-- [iRC Standard Word](iRC_Standard_Word_file_format.md)
+- [CU-Writer and CU-Writer for Windows](fmt_CU-Writer.md)
+- [iRC Standard Word](fmt_iRC_Standard_Word.md)
 - Lampang Word
 - MicroWiz Thai Word (WordStar clone)
-- [Rajavithi Word PC](RW_file_format.md)
+- [Rajavithi Word PC](fmt_Rajavithi_Word_PC.md)
 - Rajavithi Word PC Math
 - Rama Spell Check
 - RLAB Word
 - Sahaviriya Word
 - Supat Editor
-- [Thai Easy Writer](ThaiEasy_file_format.md)
+- [Thai Easy Writer](fmt_ThaiEasy_Writer.md)
 - Venus Word Processor

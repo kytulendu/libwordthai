@@ -29,7 +29,7 @@
 
 ## รูปแบบไฟล์
 
-[รูปแบบไฟล์](ThaiEasy_file_format.md)
+[รูปแบบไฟล์](fmt_ThaiEasy_Writer.md)
 
 ## ลิงค์ดาวน์โหลด
 

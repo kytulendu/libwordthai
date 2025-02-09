@@ -90,7 +90,7 @@
 [รายการรุ่น](https://github.com/kytulendu/CW141/wiki/CU-Writer-Version-Listing)
 
 ## รูปแบบไฟล์
-[รูปแบบไฟล์](https://github.com/kytulendu/CW141/wiki/File-Format)
+[รูปแบบไฟล์](fmt_CU-Writer.md)
 
 ## ภาพหน้าจอ
 [ภาพหน้าจอของ CU Writer รุ่นต่างๆ](https://github.com/kytulendu/CW141/wiki/Screenshot)
