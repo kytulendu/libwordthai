@@ -1,6 +1,10 @@
 # CU Writer
 
-![CU-WRITER 1.41, Jun 25 1990](./resources/CU-WRITER_1.6_1993-12-14.png)
+![CU-WRITER 1.6 Title](./resources/CU-WRITER_1.6_1993-12-14.png)
+
+หน้าจอแสดงรุ่นโปรแกรม
+
+![CU-WRITER 1.6 Editor](./resources/cw1.6_editor.png)
 
 พื้นที่ทำงานเอกสารบนซียูไรเตอร์
 
