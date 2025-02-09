@@ -2,7 +2,11 @@
 
 This program use KU (Kaset or เกษตร) for character encoding.
 
+![Thai Courier font shipped with Thai Easy Writer 4.1 from Computer Union](./resources/thaieasy_thai_courier_font.png)
 
+Thai Courier font shipped with Thai Easy Writer 4.1 from Computer Union.
+
+The data format is in fixed length record, using BASIC's text file.
 
 ## Control Code
 
@@ -52,4 +56,5 @@ Mail merge command
 | @DM <text>   | Display message                                     |
 
 ## Reference
+* ห้องปฏิบัติการวิจัยไมโครฯ มหาวิทยาลังเกษตรฯ, *ขวัญใจนักพิมพ์ดีด เวอร์ชัน 4.10*, ไมโครคอมพิวเตอร์, 19 (2529), หน้า 86 - 88.
 * ประภาส จงสถิตย์วัฒนา, *โปรแกรมลดขนาดแฟ้มขวัญใจนักพิมพ์ดีดได้ 5 เท่า*, ไมโครคอมพิวเตอร์, 34 (2530), หน้า 212 - 217.
