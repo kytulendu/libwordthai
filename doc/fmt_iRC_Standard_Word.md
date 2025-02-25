@@ -1,28 +1,29 @@
 # iRC Standard Word File Format
 
-Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, similar to WordStar file format.
+Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, file format is similar to WordStar file format.
 
 ## Control Code
 
-| Hex | ASCII |            Meaning            |
-|:---:|:-----:|:----------------------------- |
-| 02  | [STX] | Toggles bold mode             |
-| 03  | [ETX] | Toggles color printing mode, default is black |
-| 04  | [EOT] | Toggles enlarge mode          |
-| 06  | [ACK] | In color printing mode, print red character |
-| 07  | [BEL] | In color printing mode, print blue character |
-| 08  |  [BS] | In color printing mode, print purple character |
-| 0A  |  [LF] |                               |
-| 0C  |  [FF] | Toggles italic mode           |
-| 0D  |  [CR] | Followed by 0A (line feed), indicate newline |
-| 0E  |  [SO] | In color printing mode, print yellow character |
-| 10  | [DLE] | In color printing mode, print orange character |
-| 11  | [DLE] | In color printing mode, print green character |
-| 13  | [DC3] | Toggles underline mode        |
-| 14  | [DC4] | Toggles superscript mode      |
-| 16  | [SYN] | Toggles subscript mode        |
-| 1A  | [SUB] | End-of-File character         |
-| 8D  |       | Soft carriage return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
+| Hex | ASCII |     Key    |            Meaning            |
+|:---:|:-----:|:----------:|:----------------------------- |
+| 01  | [SOH] | `<ALT><C>` | Toggles condensed character   |
+| 02  | [STX] | `<ALT><B>` | Toggles bold character        |
+| 03  | [ETX] |            | Toggles color printing mode, default is black |
+| 04  | [EOT] | `<ALT><D>` | Toggles enlarge character     |
+| 06  | [ACK] |            | In color printing mode, print red character |
+| 07  | [BEL] |            | In color printing mode, print blue character |
+| 08  |  [BS] |            | In color printing mode, print purple character |
+| 0A  |  [LF] |            |                               |
+| 0C  |  [FF] | `<ALT><L>` | Toggles italic character      |
+| 0D  |  [CR] |            | Followed by 0A (line feed), indicate newline |
+| 0E  |  [SO] |            | In color printing mode, print yellow character |
+| 10  | [DLE] |            | In color printing mode, print orange character |
+| 11  | [DLE] |            | In color printing mode, print green character |
+| 13  | [DC3] | `<ALT><S>` | Toggles underline character   |
+| 14  | [DC4] | `<ALT><T>` | Toggles superscript character |
+| 16  | [SYN] | `<ALT><V>` | Toggles subscript character   |
+| 1A  | [SUB] |            | End-of-File character         |
+| 8D  |       |            | Soft carriage return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
 
 ## Table code
 
@@ -51,16 +52,43 @@ Note: Can use lower case.
 
 |   Command    |                       Meaning                       |
 |:-------------|:----------------------------------------------------|
+| .PO n        | Set left margin, default is 8                       |
 | .PA          | Page break                                          |
+| .CP n        | Page break if line is less than n                   |
+| .PN n        | Set current page number                             |
+| .OP          | Don't print page number                             |
+| .PG          | Print page number                                   |
+| .PC n        | Print page number at column n                       |
+| .PL n        | Set line per page                                   |
+| .MT n        | Set top margin in lines                             |
+| .MB n        | Set bottom margin in lines                          |
+| .HM n        | Set header in lines                                 |
+| .FM n        | Set footer in lines                                 |
+| .LH n        | Set line spacing                                    |
+| .CW n        | Character per inch, default 10 : 10, 12, 15, 17, 20 |
+| .BP on/off   | Bi-directional printing, default is on              |
+| .PS \xxx\xxx... | Print by sending character code, xxx = 000-255   |
+| .TP on/off   | Set page number to Thai or Arabic number, default is off |
+| .HE text     | Print page header                                   |
+| .FO text     | Print page footer                                   |
+| ..line       | Comment, not print this line                        |
 
-Dot command example from `README.STW`
+Special character used in headers and footers
 
-    .lh4
-    .pl40
-    .mt1
-    .mb1
-    .op
-    .bp off
+|  Character  |                  Meaning                   |
+|:------------|:-------------------------------------------|
+|      #      | Current page number                        |
+| `<CTRL><K>` | Ignore space before if page number is even |
+|      \      | Next character is normal character         |
+
+Mail merge command
+
+|   Command    |                       Meaning                       |
+|:-------------|:----------------------------------------------------|
+| .DF filename | Open file contain name list in `filename` for mailmerge, CSV file format |
+| .RV v1,v2,v3,... | Set variable for mailmerge                      |
+| .AV var      | Read variable `var` from keyboard                   |
+| .DM line     | Display message                                     |
 
 ## Options
 
