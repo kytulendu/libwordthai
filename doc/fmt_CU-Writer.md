@@ -26,15 +26,15 @@ Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-
 
 | Hex | ASCII |       Key      |            Meaning            |
 |:---:|:-----:|:--------------:|:----------------------------- |
-| 02  | [STX] | `<Ctrl><P><B>` | Toggles bold mode             |
-| 05  | [ENQ] | `<Ctrl><P><E>` | Toggles enlarge mode          |
+| 02  | [STX] | `<Ctrl><P><B>` | Toggles bold character        |
+| 05  | [ENQ] | `<Ctrl><P><E>` | Toggles enlarge character     |
 | 0A  |  [LF] |                |                               |
 | 0D  |  [CR] |                | Followed by 0A (line feed), indicate newline |
-| 12  | [DC2] | `<Ctrl><P><R>` | Toggles double-underline mode |
-| 13  | [DC3] | `<Ctrl><P><S>` | Toggles underline mode        |
-| 14  | [DC4] | `<Ctrl><P><T>` | Toggles superscript mode      |
-| 16  | [SYN] | `<Ctrl><P><V>` | Toggles subscript mode        |
-| 17  | [ETB] | `<Ctrl><P><W>` | Toggles italic mode           |
+| 12  | [DC2] | `<Ctrl><P><R>` | Toggles double-underline character |
+| 13  | [DC3] | `<Ctrl><P><S>` | Toggles underline character   |
+| 14  | [DC4] | `<Ctrl><P><T>` | Toggles superscript character |
+| 16  | [SYN] | `<Ctrl><P><V>` | Toggles subscript character   |
+| 17  | [ETB] | `<Ctrl><P><W>` | Toggles italic character       |
 | 1A  | [SUB] |                | End-of-File character         |
 | 1B  | [ESC] | `<Ctrl><U><S>` | Toggles font 1, CU-Writer 1.6 |
 | 1C  |  [FS] | `<Ctrl><U><S>` | Toggles font 2, computer font style, CU-Writer 1.6 |

@@ -35,19 +35,19 @@ Font used by Rajavithi Word PC
 | Hex | ASCII |       Key      |            Meaning            |
 |:---:|:-----:|:--------------:|:----------------------------- |
 | 01  | [SOH] | `<Ctrl><P><A>` | Toggles 12 characters/inch character size |
-| 02  | [STX] | `<Ctrl><P><B>` | Toggles bold mode             |
-| 03  | [ETX] | `<Ctrl><P><C>` | Toggles condensed mode        |
-| 04  | [EOT] | `<Ctrl><P><D>` | Toggles double strike mode    |
-| 05  | [ENQ] | `<Ctrl><P><E>` | Toggles enlarge mode          |
+| 02  | [STX] | `<Ctrl><P><B>` | Toggles bold character        |
+| 03  | [ETX] | `<Ctrl><P><C>` | Toggles condensed character   |
+| 04  | [EOT] | `<Ctrl><P><D>` | Toggles double strike character |
+| 05  | [ENQ] | `<Ctrl><P><E>` | Toggles enlarge character     |
 | 0A  |  [LF] |                |                               |
 | 0D  |  [CR] |                | Followed by 0A (line feed), indicate newline |
 | 0E  |  [SO] | `<Ctrl><P><N>` | Toggles 10 characters/inch character size |
 | 11  | [DC1] | `<Ctrl><P><Q>` | DBF record +1                 |
 | 12  | [DC2] | `<Ctrl><P><R>` | DBF record -1                 |
-| 13  | [DC3] | `<Ctrl><P><S>` | Toggles underline mode        |
-| 14  | [DC4] | `<Ctrl><P><T>` | Toggles superscript mode      |
-| 15  | [ETB] | `<Ctrl><P><U>` | Toggles italic mode           |
-| 16  | [SYN] | `<Ctrl><P><V>` | Toggles subscript mode        |
+| 13  | [DC3] | `<Ctrl><P><S>` | Toggles underline character   |
+| 14  | [DC4] | `<Ctrl><P><T>` | Toggles superscript character |
+| 15  | [ETB] | `<Ctrl><P><U>` | Toggles italic character      |
+| 16  | [SYN] | `<Ctrl><P><V>` | Toggles subscript character   |
 | 17  |  [SO] | `<Ctrl><P><W>` | Toggles 15 characters/inch character size, RW 2.0 |
 | 18  | [CAN] | `<Ctrl><P><X>` | Printing in draft mode        |
 | 19  |  [EM] | `<Ctrl><P><Y>` | Printing in NLQ mode          |
