@@ -1,6 +1,6 @@
 # CU-Writer File Format
 
-Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, similar to WordStar file format.
+Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, file format is similar to WordStar file format.
 
 ## Kaset Thai character encoding
 
@@ -86,8 +86,8 @@ Note: Can use lower case.
 | .PN n        | Set current page number                             |
 | .PO n        | Set left margin                                     |
 | .PR n        | Set right margin                                    |
-| .HE text     | Print page heading                                  |
-| .FO text     | Print page footing                                  |
+| .HE text     | Print page header                                   |
+| .FO text     | Print page footer                                   |
 | .PT text     | Print page title (at front of page number, like Page 23 ) |
 | .DF filename | Open file contain name list in `filename` for mailmerge, CSV file format |
 | .RV v1,v2,v3,... | Set variable for mailmerge, variable name is less than 20 character long, 15 variables maximum, Using &v1& &v2& ... on document. Data is less than 40 characters. |

@@ -86,13 +86,13 @@ Note: Can use lower case.
 |   Command    |                       Meaning                       |
 |:-------------|:----------------------------------------------------|
 | .PA          | Page break                                          |
-| .HEn<text>   | Print page heading (1-4)                            |
-| .HRn<text>   | Print page heading at odd page (1-4)                |
-| .HLn<text>   | Print page heading at even page (1-4)               |
-| .MT n        | Print number of line on page heading (1-4)          |
-| .FO<text>    | Print page footing                                  |
-| .FR<text>    | Print page footing at odd page                      |
-| .FL<text>    | Print page footing at even page                     |
+| .HEn<text>   | Print page header (1-4)                             |
+| .HRn<text>   | Print page header at odd page (1-4)                 |
+| .HLn<text>   | Print page header at even page (1-4)                |
+| .MT n        | Print number of line on page header (1-4)           |
+| .FO<text>    | Print page footer                                   |
+| .FR<text>    | Print page footer at odd page                       |
+| .FL<text>    | Print page footer at even page                      |
 | .PL n        | Set paper length in inch                            |
 | .PO n        | Set left margin (0-45)                              |
 | .PN n        | Set current page number (0-9999)                    |

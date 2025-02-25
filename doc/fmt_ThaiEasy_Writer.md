@@ -29,12 +29,12 @@ This program differ from WordStar with the use of At (@) instead of Dot (.) for 
 | @CW n        | Character per inch, default 10 : 10, 12, 17         |
 | @PL n        | Set paper length in inch, default 11                |
 | @PO n        | Set left margin, default 0                          |
-| @HE <text>   | Print page heading, use `K` to print heading at the left in even page, `#` is to print page number |
-| @MT n        | Set number of line on page heading, default is 1 line (1/3 inch) |
-| @HM n        | Set heading margin, default 0                       |
-| @FO <text>   | Print page footing, use `K` to print heading at the left in even page, `#` is to print page number |
-| @MB n        | Set number of line on page footing, default is 2 line (2/3 inch) |
-| @FM n        | Set footing margin, default 0                       |
+| @HE <text>   | Print page header, use `K` to print header at the left in even page, `#` is to print page number |
+| @MT n        | Set number of line on page header, default is 1 line (1/3 inch) |
+| @HM n        | Set header margin, default 0                        |
+| @FO <text>   | Print page footer, use `K` to print footer at the left in even page, `#` is to print page number |
+| @MB n        | Set number of line on page footer, default is 2 line (2/3 inch) |
+| @FM n        | Set footer margin, default 0                        |
 | @OP          | Omit page number                                    |
 | @PN n        | Set starting page number, default 1                 |
 | @PC n        | Set page number position, default 37                |
