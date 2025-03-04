@@ -6,7 +6,32 @@ This program use KU (Kaset or เกษตร) for character encoding.
 
 Thai Courier font shipped with Thai Easy Writer 4.1 from Computer Union.
 
-The data format is in fixed length record, using BASIC's text file.
+The data is stored in fixed length record using BASIC's text file. The first 5 record are file header.
+Each record is 256 bytes, with space (0x20) filled in and the last 16 bytes is unused (0x00).
+Record 3-5 is unused, text data starting at record 6 or at offset 0x500.
+
+| Record |    Offset |  Hex  |               Meaning              |
+|:------:|:---------:|:-----:|:---------------------------------- |
+|   1    |    0-1    | xx xx | Number of records (include header) |
+|        |   80-81   | xx xx | Number of pages                    |
+|   2    |  256-257  | xx 00 | Right margin                       |
+|        |  336-337  | 4B 00 | Old right margin when create the file, (default is 75 (0x4b)) |
+|  3-5   |  512-1279 | 00... | Unused records                     |
+|  6-xx  | 1280-xxxx |       | Text data record, each record is 256 bytes in length |
+|  xx+1  | xxxx+256  |       | Blank record                       |
+|  xx+2  | xxxx+512  |       | Blank record                       |
+
+Each text data record represent 1 line of 80 column Thai text, which store in 3 level, top, middle and under characters, each is 80 bytes in length, with CR LF (0x0d 0x0a) to indicated end of level.
+The top level characters are stored in combined character code in Kaset character encoding (See the first table).
+
+Text data record format are follow.
+
+|  Offset | Length |           Meaning          |
+|:-------:|:------:|:-------------------------- |
+|   0-79  |   80   | Top level characters, combined character code in Kaset character encoding |
+|  80-159 |   80   | Middle level characters    |
+| 160-239 |   80   | Under level characters     |
+| 240-255 |   16   | Unused, filled with 0x00   |
 
 ## Control Code
 
