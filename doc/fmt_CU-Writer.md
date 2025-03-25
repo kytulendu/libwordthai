@@ -34,13 +34,13 @@ Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-
 | 13  | [DC3] | `<Ctrl><P><S>` | Toggles underline character   |
 | 14  | [DC4] | `<Ctrl><P><T>` | Toggles superscript character |
 | 16  | [SYN] | `<Ctrl><P><V>` | Toggles subscript character   |
-| 17  | [ETB] | `<Ctrl><P><W>` | Toggles italic character       |
+| 17  | [ETB] | `<Ctrl><P><W>` | Toggles italic character      |
 | 1A  | [SUB] |                | End-of-File character         |
 | 1B  | [ESC] | `<Ctrl><U><S>` | Toggles font 1, CU-Writer 1.6 |
 | 1C  |  [FS] | `<Ctrl><U><S>` | Toggles font 2, computer font style, CU-Writer 1.6 |
 | 1D  |  [GS] | `<Ctrl><U><S>` | Toggles font 3, CU-Writer 1.6 |
 | 1E  |  [RS] | `<Ctrl><U><S>` | Toggles font 4, similar to font 1 but have characters for German and French, CU-Writer 1.6 |
-| 8D  |       |                | Soft carriage return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
+| 8D  |       | `<F9>`         | Soft carriage return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
 | A0  |       |                | zero-width space, inserted from Thai word separator software like Rama SpellCheck and iRC ZeWrite. Used by Desktop Publishing software to help separate Thai words. This character is not displaying a visible space in the rendered text. |
 
 **Note:** Soft carriage return on TIS-620 is `8D`, on Kaset-CW is `F3`.
