@@ -2,25 +2,45 @@
 
 Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, file format is similar to WordStar file format.
 
-## Kaset Thai character encoding
+## Kaset-CW (Kaset CU-Writer)
 
 This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
 It was used mainly in microcomputer hardware and software before TIS-620 standard.
 
-The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) ` and `Yamakkan (อ๎)`.
+The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) `, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)`.
 
-Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-99h) and `tua lue (ฦ)` (CDh).
+Kaset-CW character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `Phinthu (อฺ) ` (E5h), `Yamakkan (อ๎)` (FAh), `fong man (๏)` (FBh), `angkhan khu (๚)` (FCh), `kho mut (๛)` (FDh), box-drawing characters (80h-8Ah), Greek symbols and mathematics characters.
+
+There was also other characters that can be insert with special character menu in CU-Writer that isn't in the table, top half of integral symbol in F5h and bottom half of integral symbol in F6h.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| 8x |
-| 9x | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ |
+| 8x | ┌ | ┐ | └ | ┘ | │ | ─ | ├ | ┤ | ┴ | ┬ | ┼ |   |   |   |   |   |
+| 9x | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ | ฃ | ฅ |   |   |   |   |
 | Ax |   | ก | ข | ค | ฆ | ง | จ | ฉ | ช | ซ | ฌ | ญ | ฎ | ฏ | ฐ | ฑ |
 | Bx | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ | ภ | ม |
 | Cx | ย | ร | ฤ | ล | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ะ | ฦ | า | ﻿ำ |
-| Dx | เ | แ | โ | ใ | ไ | ๆ | ๚ | ﻿ุ | ﻿ู | ﻿ิ | ﻿ี | ﻿ึ | ﻿ื | ﻿ั | ﻿ํ | ﻿็ |
-| Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |
-| Fx |
+| Dx | เ | แ | โ | ใ | ไ | ๆ | ฯ | ﻿ุ | ﻿ู | ﻿ิ | ﻿ี | ﻿ึ | ﻿ื | ﻿ั | ﻿ํ | ﻿็ |
+| Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |  ฺ | α | β | γ | θ | ∫ | ∑ | √ | ∆ | ∇ | π |
+| Fx |   | ρ | Φ |   | μ |   |   | ฿ |   |   |  ๎ | ๏ | ๚ | ๛ |   |   |
+
+## TIS-620-CW (TIS-620 CU-Writer) character encoding
+
+TIS-620-CW differs by adding box-drawing characters, Greek symbols and mathematics characters.
+
+There was other characters that can be insert with special character menu in CU-Writer that isn't in the table, top half of integral symbol in 9Eh and bottom half of integral symbol in 9Fh.
+
+|    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
+|:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 8x | α | β | γ | θ | ∫ | ∑ | √ | ∆ | ∇ | π |   | ρ | Φ |   | μ | ┼ |
+| 9x | ┴ | ┬ | ┤ | ├ |   | ─ | │ |   | ┌ | ┐ | └ | ┘ |   |   |   |   |
+| Ax |   | ก | ข | ฃ | ค | ฅ | ฆ | ง | จ | ฉ | ช | ซ | ฌ | ญ | ฎ | ฏ |
+| Bx | ฐ | ฑ | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ |
+| Cx | ภ | ม | ย | ร | ฤ | ล | ฦ | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ฯ |
+| Dx | ะ | ั | า | ำ | ิ |  ี |  ึ |  ื |  ุ |  ู |  ฺ |   |   |   |   | ฿ |
+| Ex | เ | แ | โ | ใ | ไ | ๅ | ๆ |  ็ |  ่ |  ้ |  ๊ |  ๋ |  ์ |  ํ |  ๎ | ๏ |
+| Fx | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ | ๚ | ๛ |
+
 
 ## Control Code
 
@@ -43,7 +63,7 @@ Kaset-CW (Kaset CU-Writer) character encoding differs by adding Thai digit (90h-
 | 8D  |       | `<F9>`         | Soft carriage return (inserted, followed by line feed (LF) `0A` to mark soft line break at word-wrap) |
 | A0  |       |                | zero-width space, inserted from Thai word separator software like Rama SpellCheck and iRC ZeWrite. Used by Desktop Publishing software to help separate Thai words. This character is not displaying a visible space in the rendered text. |
 
-**Note:** Soft carriage return on TIS-620 is `8D`, on Kaset-CW is `F3`.
+**Note:** Soft carriage return on TIS-620-CW is `8D`, on Kaset-CW is `F3`.
 
 ### CU Writer for Windows 77
 

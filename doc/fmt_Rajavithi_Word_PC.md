@@ -11,24 +11,39 @@ It was used mainly in microcomputer hardware and software before TIS-620 standar
 
 The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) ` and `Yamakkan (อ๎)`.
 
-Kaset-RW (Kaset Rajavithi Word PC) character encoding differs by adding Thai digit (80h-89h).
+Kaset-RW character encoding differs by adding Thai digit (80h-89h) and box-drawing characters (95h-9Fh).
 
-**Note:** Early version 1.x did not have Thai digit, it will use Arabic number instead.
+**Note:** Early version 1.x did not have box-drawing characters and Thai digit, for numbers it will use Arabic number instead.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 8x | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ |
-| 9x |
+| 9x |   |   |   |   |   | ┌ | ┬ | ┐ | ├ | ┼ | ┤ | └ | ┴ | ┘ | ─ | │ |
 | Ax |   | ก | ข | ค | ฆ | ง | จ | ฉ | ช | ซ | ฌ | ญ | ฎ | ฏ | ฐ | ฑ |
 | Bx | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ | ภ | ม |
 | Cx | ย | ร | ฤ | ล | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ะ |   | า | ﻿ำ |
-| Dx | เ | แ | โ | ใ | ไ | ๆ | ๚ | ﻿ุ | ﻿ู | ﻿ิ | ﻿ี | ﻿ึ | ﻿ื | ﻿ั | ﻿ํ | ﻿็ |
+| Dx | เ | แ | โ | ใ | ไ | ๆ | ฯ | ﻿ุ | ﻿ู | ﻿ิ | ﻿ี | ﻿ึ | ﻿ื | ﻿ั | ﻿ํ | ﻿็ |
 | Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |
 | Fx |
 
 ![Rajavithi Word PC font](./resources/RW_display_font.png)
 
 Font used by Rajavithi Word PC
+
+## TIS-620-RW (TIS-620 Rajavithi Word PC)
+
+TIS-620-RW differs by adding box-drawing characters. It did not have `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) `, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)` due to the software use Kaset character code internally and use it for display font.
+
+|    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
+|:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 8x |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   | ┼ |
+| 9x | ┴ | ┬ | ┤ | ├ |   | ─ | │ |   | ┌ | ┐ | └ | ┘ |   |   |   |   |
+| Ax |   | ก | ข |   | ค |   | ฆ | ง | จ | ฉ | ช | ซ | ฌ | ญ | ฎ | ฏ |
+| Bx | ฐ | ฑ | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ |
+| Cx | ภ | ม | ย | ร | ฤ | ล |   | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ฯ |
+| Dx | ะ | ั | า | ำ | ิ |  ี |  ึ |  ื |  ุ |  ู |   |   |   |   |   |   |
+| Ex | เ | แ | โ | ใ | ไ |   | ๆ |  ็ |  ่ |  ้ |  ๊ |  ๋ |  ์ |  ํ |   |   |
+| Fx | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ |
 
 ## Control Code
 
