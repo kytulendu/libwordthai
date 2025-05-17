@@ -7,9 +7,9 @@ Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, file 
 This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
 It was used mainly in microcomputer hardware and software before TIS-620 standard.
 
-The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) `, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)`.
+The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ)`, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)`.
 
-Kaset-CW character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `Phinthu (อฺ) ` (E5h), `Yamakkan (อ๎)` (FAh), `fong man (๏)` (FBh), `angkhan khu (๚)` (FCh), `kho mut (๛)` (FDh), box-drawing characters (80h-8Ah), Greek symbols and mathematics characters.
+Kaset-CW character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `Phinthu (อฺ)` (E5h), `Yamakkan (อ๎)` (FAh), `fong man (๏)` (FBh), `angkhan khu (๚)` (FCh), `kho mut (๛)` (FDh), box-drawing characters (80h-8Ah), Greek symbols and mathematics characters.
 
 There was also other characters that can be insert with special character menu in CU-Writer that isn't in the table, top half of integral symbol in F5h and bottom half of integral symbol in F6h.
 

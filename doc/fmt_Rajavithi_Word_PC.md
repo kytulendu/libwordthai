@@ -9,11 +9,13 @@ The file format is similar to WordStar file format.
 This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
 It was used mainly in microcomputer hardware and software before TIS-620 standard.
 
-The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) ` and `Yamakkan (อ๎)`.
+The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ)` and `Yamakkan (อ๎)`.
 
 Kaset-RW character encoding differs by adding Thai digit (80h-89h) and box-drawing characters (95h-9Fh).
 
-**Note:** Early version 1.x did not have box-drawing characters and Thai digit, for numbers it will use Arabic number instead.
+**Note:**
+
+Early version 1.x did not have box-drawing characters and Thai digit, for numbers it will use Arabic number instead.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -32,7 +34,7 @@ Font used by Rajavithi Word PC
 
 ## TIS-620-RW (TIS-620 Rajavithi Word PC)
 
-TIS-620-RW differs by adding box-drawing characters. It did not have `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ) `, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)` due to the software use Kaset character code internally and use it for display font.
+TIS-620-RW differs by adding box-drawing characters. It did not have `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ)`, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)` due to the software use Kaset character code internally and use it for display font.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
