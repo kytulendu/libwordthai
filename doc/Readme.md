@@ -6,6 +6,7 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 - [Thai Character Encoding](Thai_character_code.md)
 - [Alonggod (อลงกต)](sw_Alonggod.md)
 - [CU-Writer (เวิร์ดจุฬา) and CU-Writer for Windows](sw_CU-Writer.md)
+- [iRC Standard Word](sw_iRC_Standard_Word.md)
 - [Rajavithi Word PC (ราชวิถีเวิร์ดพีซี หรือ เวิร์ดราชวิถี)](sw_Rajavithi_Word_PC.md)
 - [Rama Spell Check (เวิร์ดรามา)](sw_Rama_SpellCheck.md)
 - [Thai Easy Writer (ขวัญใจนักพิมพ์ดีด)](sw_ThaiEasy_Writer.md)
