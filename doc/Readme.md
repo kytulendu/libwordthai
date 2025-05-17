@@ -13,6 +13,7 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 
 ## File formats
 - Alonggod (อลงกต)
+- [Computer Union Word](fmt_Computer_Union_Word.md)
 - [CU-Writer and CU-Writer for Windows](fmt_CU-Writer.md)
 - [iRC Standard Word](fmt_iRC_Standard_Word.md)
 - Lampang Word
