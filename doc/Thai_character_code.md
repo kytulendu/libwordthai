@@ -11,12 +11,6 @@ This character code seems to be originally develop on NEC PC-8001 from the chara
 
 Kaset character encoding have 3 versions. Most variation of Kaset character encoding are based on Kaset v3.
 
-**Reference:**
-
-- ยืน ภู่วรวรรณ. *เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์*. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
-- พิสุทธิ์ สถาพรภูริศักดิ์. (2527). *ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1*. ไมโคร อิเลคทรอนิคส์, (8), 65-68.
-- [The character set of the PC-8001](https://commons.wikimedia.org/wiki/File:PC-8001_character_set.png)
-
 ---
 
 ### Kaset v1
@@ -151,7 +145,7 @@ Combined characters at E6h-FEh is only used by Thai Easy Writer file as I known 
 | Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |   |  ํ่ |  ํ้ |  ํ๊ |  ํ๋ |  ั่ |  ั้ |  ั๊ |  ั๋ |  ิ่ |  ิ้ |
 | Fx |  ิ๊ |  ิ๋ |  ิ์ |  ี่ |  ี้ |  ี๊ |  ี๋ |  ึ่ |  ึ้ |  ึ๊ |  ึ๋ |  ื่ |  ื้ |  ื๊ |  ื๋ |   |
 
-### Kaset-CW (Kaset CU-Writer)
+#### Kaset-CW (Kaset CU-Writer)
 
 Based on Kaset v3. Kaset-CW character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `phinthu (อฺ)` (E5h), `yamakkan (อ๎)` (FAh), `fong man (๏)` (FBh), `angkhan khu (๚)` (FCh), `kho mut (๛)` (FDh), box-drawing characters (80h-8Ah), Greek symbols and mathematics characters.
 
@@ -168,7 +162,7 @@ There was also other characters that can be insert with special character menu i
 | Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |  ฺ | α | β | γ | θ | ∫ | ∑ | √ | ∆ | ∇ | π |
 | Fx |   | ρ | Φ |   | μ |   |   | ฿ |   |   |  ๎ | ๏ | ๚ | ๛ |   |   |
 
-### Kaset-RW (Kaset Rajavithi Word PC)
+#### Kaset-RW (Kaset Rajavithi Word PC)
 
 Based on Kaset v3. Kaset-RW character encoding differs by adding Thai digit (80h-89h) and box-drawing characters (95h-9Fh).
 
@@ -207,12 +201,6 @@ Also known as Smo (สมอ.)
 | Dx | ะ | ั | า | ำ |  ิ |  ี |  ึ |  ื |  ุ |  ู |  ฺ |   |   |   |   | ฿ |
 | Ex | เ | แ | โ | ใ | ไ | ๅ | ๆ |  ็ |  ่ |  ้ |  ๊ |  ๋ |  ์ |  ํ |  ๎ | ๏ |
 | Fx | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ | ๚ | ๛ |
-
-**Reference:**
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
-- [Official reference](http://www.nectec.or.th/it-standards/std620/std620.html) (in Thai)
-- Announcement in Royal Gazette of [TIS 620-2533](https://web.archive.org/web/20111207224549/http://www.ratchakitcha.soc.go.th/DATA/PDF/2533/D/140/6318.PDF) and [TIS 620-2529](https://web.archive.org/web/20111207215038/http://www.ratchakitcha.soc.go.th/DATA/PDF/2529/D/102/2720.PDF)
 
 ### TIS-620-CW (TIS-620 CU-Writer)
 
@@ -282,10 +270,6 @@ May not correct.
 | Ex | = | ├ | ┤ |   | ฎ | ฑ | ฏ | โ | ณ | ฯ |  ๋ | ษ | ─ | , | │ | _ |
 | Fx |  ๊ |   | 4 |  ู |  ั้ | 5 | 6 | 7 | " |   | 1 | 2 | 3 | 0 | ▒ |   |
 
-**Reference:**
-
-- พิสุทธิ์ สถาพรภูริศักดิ์. (2527). *ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1*. ไมโคร อิเลคทรอนิคส์, (8), 65-68.
-
 ### SMC (สหมิตรเครื่องกล)
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
@@ -299,6 +283,26 @@ May not correct.
 | Ex | ร | ฤ | ล | ฦ | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ะ | ั | า | ำ |
 | Fx |  ิ |  ี |  ึ |  ื |  ุ |  ู | ฯ |  ํ |  ฺ | เ | แ | โ | ใ | ไ |   |   |
 
+### Loxley
+
+|    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
+|:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 8x | ┌ | ┐ | └ | ┘ | │ | ─ | ├ | ┤ | ┴ | ┬ | ┼ |   |   |   |   |   |
+| 9x | ๐ | ๑ | ๒ | ๓ | ๔ | ๕ | ๖ | ๗ | ๘ | ๙ |  ิ์ |  ี่ |  ี้ |  ี๊ |  ี๋ |   |
+| Ax |   | ก | ข | ค | ฆ | ง | จ | ฉ | ช | ซ | ฌ | ญ | ฎ | ฏ | ฐ | ฑ |
+| Bx | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ | ภ | ม |
+| Cx | ย | ร | ล | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ฤ | ฦ | ะ | า | ﻿ำ |
+| Dx | ั |  ็ |  ิ |  ี |  ึ |  ื |  ุ |  ู | เ | แ | โ | ใ | ไ | ﻿่ | ﻿้ | ﻿๊  |
+| Ex | ﻿๋ | ﻿์ | ๆ | ฯ |  ํ |  ั้ |  ั่ |  ั๊ |  ั๋ |  ิ่ |  ิ้ |  ิ๊ |  ิ๋ |  ิ์ |  ี่ |  ี้ |
+| Fx |  ี๊ |  ี๋ |  ึ่ |  ึ้ |  ึ๊ |  ึ๋ |  ื่ |  ื้ |  ื๊ |  ื๋ | โ | ใ | ไ |   |   |   |
+
+---
+
 **Reference:**
 
-- พิสุทธิ์ สถาพรภูริศักดิ์. (2527). *ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1*. ไมโคร อิเลคทรอนิคส์, (8), 65-68.
+- ยืน ภู่วรวรรณ. *เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์*. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
+- พิสุทธิ์ สถาพรภูริศักดิ์. (2527). *ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1*. ไมโคร อิเลคทรอนิคส์, (8), 65-68. [Archive.org](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up)
+- [The character set of the PC-8001](https://commons.wikimedia.org/wiki/File:PC-8001_character_set.png)
+- [Thai Industrial Standard 620-2533 - Wikipedia](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
+- [TIS-620 official reference](http://www.nectec.or.th/it-standards/std620/std620.html) (in Thai)
+- Announcement in Royal Gazette of [TIS 620-2533](https://web.archive.org/web/20111207224549/http://www.ratchakitcha.soc.go.th/DATA/PDF/2533/D/140/6318.PDF) and [TIS 620-2529](https://web.archive.org/web/20111207215038/http://www.ratchakitcha.soc.go.th/DATA/PDF/2529/D/102/2720.PDF)
