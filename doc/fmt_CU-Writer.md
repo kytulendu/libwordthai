@@ -24,9 +24,9 @@ There was also other characters that can be insert with special character menu i
 | Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |  ฺ | α | β | γ | θ | ∫ | ∑ | √ | ∆ | ∇ | π |
 | Fx |   | ρ | Φ |   | μ |   |   | ฿ |   |   |  ๎ | ๏ | ๚ | ๛ |   |   |
 
-## TIS-620-CW (TIS-620 CU-Writer) character encoding
+## TIS-620 CW (TIS-620 CU-Writer) character encoding
 
-TIS-620-CW differs by adding box-drawing characters, Greek symbols and mathematics characters.
+TIS-620 CW differs by adding box-drawing characters, Greek symbols and mathematics characters.
 
 There was other characters that can be insert with special character menu in CU-Writer that isn't in the table, top half of integral symbol in 9Eh and bottom half of integral symbol in 9Fh.
 

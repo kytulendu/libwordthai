@@ -32,9 +32,9 @@ Early version 1.x did not have box-drawing characters and Thai digit, for number
 
 Font used by Rajavithi Word PC
 
-## TIS-620-RW (TIS-620 Rajavithi Word PC)
+## TIS-620 RW (TIS-620 Rajavithi Word PC)
 
-TIS-620-RW differs by adding box-drawing characters. It did not have `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ)`, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)` due to the software use Kaset character code internally and use it for display font.
+TIS-620 RW differs by adding box-drawing characters. It did not have `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ)`, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)` due to the software use Kaset character code internally and use it for display font.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
