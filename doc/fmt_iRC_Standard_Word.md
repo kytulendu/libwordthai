@@ -1,6 +1,6 @@
 # iRC Standard Word File Format
 
-Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, file format is similar to WordStar file format.
+Use both Kaset (เกษตร) and TIS-620 for character encoding, file format is similar to WordStar file format.
 
 ## Control Code
 

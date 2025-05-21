@@ -2,9 +2,9 @@
 
 Use TIS-620 for character encoding, file format is similar to [CU-Writer](fmt_CU-Writer.md) file format.
 
-## TIS-620-CU (TIS-620 Computer Union)
+## TIS-620 CU (TIS-620 Computer Union)
 
-TIS-620-CU differs by adding box-drawing characters. It did not have `Yamakkan (อ๎)` in EEh position.
+TIS-620 CU differs by adding box-drawing characters. It did not have `Yamakkan (อ๎)` in EEh position.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|

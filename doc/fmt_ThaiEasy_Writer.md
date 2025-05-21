@@ -1,6 +1,6 @@
 # Thai Easy Writer File Format
 
-This program use KU (Kaset or เกษตร) for character encoding.
+This program use Kaset (เกษตร) v3 for character encoding.
 
 ![Thai Courier font shipped with Thai Easy Writer 4.1 from Computer Union](./resources/thaieasy_thai_courier_font.png)
 

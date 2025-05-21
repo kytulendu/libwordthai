@@ -1,10 +1,10 @@
 # CU-Writer File Format
 
-Use both KU (Kaset or เกษตร) and TIS-620 for character encoding, file format is similar to WordStar file format.
+Use both Kaset (เกษตร) and TIS-620 for character encoding, file format is similar to WordStar file format.
 
 ## Kaset-CW (Kaset CU-Writer)
 
-This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
+Kaset (เกษตร) or KU Thai character encoding is an early Thai character encoding from Department of Computer Engineering, Kasetsart University.
 It was used mainly in microcomputer hardware and software before TIS-620 standard.
 
 The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ)`, `Yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)`.

@@ -1,12 +1,12 @@
 # Rajavithi Word PC File Format
 
-Early version 1.x use only KU (Kaset or เกษตร) character encoding, version 2.x can use both Kaset and TIS-620 character encoding.
+Early version 1.x use only Kaset (เกษตร) character encoding, version 2.x can use both Kaset and TIS-620 character encoding.
 
 The file format is similar to WordStar file format.
 
 ## Kaset-RW (Kaset Rajavithi Word PC)
 
-This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
+Kaset (เกษตร) or KU Thai character encoding is an early Thai character encoding from Department of Computer Engineering, Kasetsart University.
 It was used mainly in microcomputer hardware and software before TIS-620 standard.
 
 The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `Phinthu (อฺ)` and `Yamakkan (อ๎)`.

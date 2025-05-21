@@ -1,6 +1,6 @@
 # Kaset (เกษตร) Thai character encoding
 
-This was early Thai character encoding from Department of Computer Engineering, Kasetsart University.
+Kaset (เกษตร) or KU Thai character encoding is an early Thai character encoding from Department of Computer Engineering, Kasetsart University.
 It was used mainly in microcomputer hardware and software before TIS-620 standard.
 
 This character code seems to be originally develop on NEC PC-8001 from the character code table in "ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1" article in "ไมโคร อิเลคทรอนิคส์" magazine, issue 8, page 67.
@@ -134,6 +134,14 @@ Combined characters at E6h-FEh is only used by Thai Easy Writer file as I known 
 | Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |   |  ํ่ |  ํ้ |  ํ๊ |  ํ๋ |  ั่ |  ั้ |  ั๊ |  ั๋ |  ิ่ |  ิ้ |
 | Fx |  ิ๊ |  ิ๋ |  ิ์ |  ี่ |  ี้ |  ี๊ |  ี๋ |  ึ่ |  ึ้ |  ึ๊ |  ึ๋ |  ื่ |  ื้ |  ื๊ |  ื๋ |   |
 
+![Rajavithi Word PC font](./resources/RW_display_font.png)
+
+Font used by Rajavithi Word PC, based on Kaset v3.
+
+![Thai Courier font shipped with Thai Easy Writer 4.1 from Computer Union](./resources/thaieasy_thai_courier_font.png)
+
+Thai Courier font shipped with Thai Easy Writer 4.1 from Computer Union, based on Kaset v3.
+
 ### Kaset-NEC v3 (Kaset NEC PC-8001 v3)
 
 From "ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1" article in "ไมโคร อิเลคทรอนิคส์" magazine, issue 8.
@@ -182,12 +190,8 @@ Early version 1.x did not have box-drawing characters and Thai digit, for number
 | Bx | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ | ภ | ม |
 | Cx | ย | ร | ฤ | ล | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ะ |   | า | ﻿ำ |
 | Dx | เ | แ | โ | ใ | ไ | ๆ | ฯ | ﻿ุ | ﻿ู | ﻿ิ | ﻿ี | ﻿ึ | ﻿ื | ﻿ั | ﻿ํ | ﻿็ |
-| Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |   |   |   |   |   |   |   |   |   |   |   |
-| Fx |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-
-![Rajavithi Word PC font](./resources/RW_display_font.png)
-
-Font used by Rajavithi Word PC
+| Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |   |  ํ่ |  ํ้ |  ํ๊ |  ํ๋ |  ั่ |  ั้ |  ั๊ |  ั๋ |  ิ่ |  ิ้ |
+| Fx |  ิ๊ |  ิ๋ |  ิ์ |  ี่ |  ี้ |  ี๊ |  ี๋ |  ึ่ |  ึ้ |  ึ๊ |  ึ๋ |  ื่ |  ื้ |  ื๊ |  ื๋ |   |
 
 ### Kaset-VTHAI
 
@@ -248,8 +252,8 @@ Used in MicroWiz XTRA-VGA driver.
 | Bx | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ | ภ | ม |
 | Cx | ย | ร | ฤ | ล | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ะ |   | า | ﻿ำ |
 | Dx | เ | แ | โ | ใ | ไ | ๆ | ฯ | ﻿ุ | ﻿ู | ﻿ิ | ﻿ี | ﻿ึ | ﻿ื | ﻿ั | ﻿ํ | ﻿็ |
-| Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |   |   |   |   |   |   |   |   |   |   |   |
-| Fx |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| Ex | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ |   |  ํ่ |  ํ้ |  ํ๊ |  ํ๋ |  ั่ |  ั้ |  ั๊ |  ั๋ |  ิ่ |  ิ้ |
+| Fx |  ิ๊ |  ิ๋ |  ิ์ |  ี่ |  ี้ |  ี๊ |  ี๋ |  ึ่ |  ึ้ |  ึ๊ |  ึ๋ |  ื่ |  ื้ |  ื๊ |  ื๋ |   |
 
 ---
 
