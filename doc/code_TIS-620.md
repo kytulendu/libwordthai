@@ -62,7 +62,7 @@ Used in VTHAI driver.
 
 ### TIS-620 IRC
 
-Used in iRC VGA and THAILS driver.
+Used in iRC Thai driver and MS-DOS 6.22 Thai Edition THAILS.
 
 iRC VGA driver did not have `lak khang yao (ๅ)`, `yamakkan (อ๎)`, `angkhan khu (๚)` and `kho mut (๛)`.
 
@@ -94,7 +94,7 @@ Used in ThaiSoft Thai System Manager (TSM) driver.
 
 ### TIS-620 CU (TIS-620 Computer Union)
 
-TIS-620-CU differs by adding box-drawing characters. It did not have `yamakkan (อ๎)` in EEh position.
+TIS-620 CU differs by adding box-drawing characters. It did not have `yamakkan (อ๎)` in EEh position.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -159,3 +159,4 @@ Used in MicroWiz XTRA-VGA driver.
 - [Thai Industrial Standard 620-2533 - Wikipedia](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
 - [TIS-620 official reference](http://www.nectec.or.th/it-standards/std620/std620.html) (in Thai)
 - Announcement in Royal Gazette of [TIS 620-2533](https://web.archive.org/web/20111207224549/http://www.ratchakitcha.soc.go.th/DATA/PDF/2533/D/140/6318.PDF) and [TIS 620-2529](https://web.archive.org/web/20111207215038/http://www.ratchakitcha.soc.go.th/DATA/PDF/2529/D/102/2720.PDF)
+- ทวีศักดิ์ กออนันตกูล และคณะทำงานร่างข้อกำหนดร่วมเพื่อการเขียนโปรแกรมซึ่งแสดงผลเป็นภาษาไทย. *คอมพิวเตอร์กับภาษาไทย : การพัฒนามาตรฐานเบื้องต้นสำหรับเทคโนโลยีสารสนเทศของไทย*. กรุงเทพฯ : ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC), 2534.

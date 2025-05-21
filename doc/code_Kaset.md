@@ -11,6 +11,8 @@ Kaset character encoding have 3 versions. Most variation of Kaset character enco
 
 ## Kaset v1
 
+From "ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1" article in "ไมโคร อิเลคทรอนิคส์" magazine, issue 8.
+
 The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `phinthu (อฺ)`, `yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)` and `kho mut (๛)` and `baht symbol (฿)`.
 
 This character encoding is first used in dBASE II and TBASE (Thai dBASE clone run on CP/M).
@@ -46,7 +48,7 @@ Also include combined characters in the table. At 60h, 7Bh-7Dh, E8h-EBh, F1h-FBh
 
 **Note:**
 
-Original table in "ไมโคร อิเลคทรอนิคส์" magazine article didn't have `sara um (ำ)` and ` ั๋ ` combined character, these two characters placement is from Kaset-DTM.
+Original table in the article didn't have `sara um (ำ)` and ` ั๋ ` combined character, these two characters placement is from Kaset-DTM.
 
 Some characters are place in lower character table, `karan (อ์)` is at 5Bh, `mai yamok (ๆ)` is at 5Ch, `paiyan noi (ฯ)` is at 5Dh and combined characters at 60h and 7Bh-7Dh.
 
@@ -69,6 +71,8 @@ Some characters are place in lower character table, `karan (อ์)` is at 5Bh, 
 
 ### Kaset-NEC v2 (Kaset NEC PC-8001 v2)
 
+From "ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1" article in "ไมโคร อิเลคทรอนิคส์" magazine, issue 8.
+
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 2x | SP | ! | " | # | $ | % | & | ' | ( | ) | * | + | , | - | . | / |
@@ -88,7 +92,9 @@ Some characters are place in lower character table, `karan (อ์)` is at 5Bh, 
 
 ### Kaset-DTM (Kaset Datamat (ดาต้าแมท))
 
-Based on Kaset v2. Kaset-DTM character encoding differs by adding Thai digit (90h-99h), box-drawing characters (8Fh, E0h-E7h, EEh-EFh), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (FCh), `phinthu (อฺ)` (5Eh)  and `baht symbol (฿)` (F0h).
+From MS-DOS 6.22 Thai Edition's THAICONV and ThaiSoft Thai System Manager (TSM) File Converter Utility.
+
+Kaset-DTM character encoding differs by adding Thai digit (90h-99h), box-drawing characters (8Fh, E0h-E7h, EEh-EFh), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (FCh), `phinthu (อฺ)` (5Eh)  and `baht symbol (฿)` (F0h).
 
 Also include combined characters in the table. At 60h, 7Bh-7Dh, E8h-EBh, F1h-FBh, FDh-FEh.
 
@@ -130,6 +136,8 @@ Combined characters at E6h-FEh is only used by Thai Easy Writer file as I known 
 
 ### Kaset-NEC v3 (Kaset NEC PC-8001 v3)
 
+From "ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1" article in "ไมโคร อิเลคทรอนิคส์" magazine, issue 8.
+
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 8x | ▁ | ▂ | ▃ | ▄ | ▅ | ▆ | ▇ | █ | ▏ | ▎ | ▍ | ▌ | ▋ | ▊ | ▉ | ┼ |
@@ -143,7 +151,7 @@ Combined characters at E6h-FEh is only used by Thai Easy Writer file as I known 
 
 ### Kaset-CW (Kaset CU-Writer)
 
-Based on Kaset v3. Kaset-CW character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `phinthu (อฺ)` (E5h), `yamakkan (อ๎)` (FAh), `fong man (๏)` (FBh), `angkhan khu (๚)` (FCh), `kho mut (๛)` (FDh), `Baht symbol (฿)` (E7h), box-drawing characters (80h-8Ah), Greek symbols and mathematics characters.
+Kaset-CW character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `phinthu (อฺ)` (E5h), `yamakkan (อ๎)` (FAh), `fong man (๏)` (FBh), `angkhan khu (๚)` (FCh), `kho mut (๛)` (FDh), `Baht symbol (฿)` (E7h), box-drawing characters (80h-8Ah), Greek symbols and mathematics characters.
 
 There was also other characters that can be insert with special character menu in CU-Writer that isn't in the table, top half of integral symbol in F5h and bottom half of integral symbol in F6h.
 
@@ -160,7 +168,7 @@ There was also other characters that can be insert with special character menu i
 
 ### Kaset-RW (Kaset Rajavithi Word PC)
 
-Based on Kaset v3. Kaset-RW character encoding differs by adding Thai digit (80h-89h) and box-drawing characters (95h-9Fh).
+Kaset-RW character encoding differs by adding Thai digit (80h-89h) and box-drawing characters (95h-9Fh).
 
 **Note:**
 
@@ -183,7 +191,7 @@ Font used by Rajavithi Word PC
 
 ### Kaset-VTHAI
 
-Kaset code used in VTHAI driver, based on Kaset v3. Kaset-VTHAI character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `phinthu (อฺ)` (E5h), `fong man (๏)` (8Eh), `angkhan khu (๚)` (8Bh), `kho mut (๛)` (8Ch),  `yamakkan (อ๎)` (8Dh), `Baht symbol (฿)` (8Fh) and box-drawing characters (80h-8Ah) characters.
+Kaset code used in VTHAI driver. Kaset-VTHAI character encoding differs by adding Thai digit (90h-99h), `kho khuat (ฃ)` (9Ah), `kho khon (ฅ)` (9Bh), `tua lue (ฦ)` (CDh), `phinthu (อฺ)` (E5h), `fong man (๏)` (8Eh), `angkhan khu (๚)` (8Bh), `kho mut (๛)` (8Ch),  `yamakkan (อ๎)` (8Dh), `Baht symbol (฿)` (8Fh) and box-drawing characters (80h-8Ah) characters.
 
 Use box-drawing characters code same as Kaset-CW
 
@@ -200,7 +208,7 @@ Use box-drawing characters code same as Kaset-CW
 
 ### Kaset-IRC
 
-Used in iRC and THAILS driver, based on Kaset v3.
+Used in iRC Thai driver and MS-DOS 6.22 Thai Edition THAILS.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -215,7 +223,7 @@ Used in iRC and THAILS driver, based on Kaset v3.
 
 ### Kaset-THAIPRO
 
-Used in Powersoft Thai Professional EGA/VGA driver, based on Kaset v3.
+Used in Powersoft Thai Professional EGA/VGA driver.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -249,4 +257,5 @@ Used in MicroWiz XTRA-VGA driver.
 
 - ยืน ภู่วรวรรณ. *เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์*. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
 - พิสุทธิ์ สถาพรภูริศักดิ์. (2527). *ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1*. ไมโคร อิเลคทรอนิคส์, (8), 65-68. [Archive.org](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up)
+- [std_to_ku and ku_to_std table from CU-Writer 1.41 source code](https://github.com/kytulendu/CW141/blob/master/SRC/COMMON/HDISP.ASM)
 - [The character set of the PC-8001](https://commons.wikimedia.org/wiki/File:PC-8001_character_set.png)

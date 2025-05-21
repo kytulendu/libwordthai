@@ -2,9 +2,11 @@
 
 ## COMEDP or Fujitsu (Fujitsu Micro 8?)
 
+From "ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1" article in "ไมโคร อิเลคทรอนิคส์" magazine, issue 8.
+
 **Note:**
 
-May not correct.
+May not correct due to how faded of the print are.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -19,6 +21,8 @@ May not correct.
 
 ## SMC (สหมิตรเครื่องกล)
 
+From "ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1" article in "ไมโคร อิเลคทรอนิคส์" magazine, issue 8.
+
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 8x |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
@@ -32,6 +36,10 @@ May not correct.
 
 ## Loxley
 
+From ThaiSoft Thai System Manager (TSM) File Converter Utility.
+
+Used in Thai system in Oliviti computers distributed by Loxley Co.,Ltd.
+
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 8x | ┌ | ┐ | └ | ┘ | │ | ─ | ├ | ┤ | ┴ | ┬ | ┼ |   |   |   |   |   |
@@ -44,6 +52,8 @@ May not correct.
 | Fx |  ี๊ |  ี๋ |  ึ่ |  ึ้ |  ึ๊ |  ึ๋ |  ื่ |  ื้ |  ื๊ |  ื๋ | โ | ใ | ไ |   |   |   |
 
 ## SCT
+
+From MS-DOS 6.22 Thai Edition's THAICONV.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -73,6 +83,8 @@ Used in Powersoft Thai Professional EGA/VGA driver.
 
 ## Sharp
 
+From MS-DOS 6.22 Thai Edition's THAICONV.
+
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 8x | ╩ | ╦ | ═ | ║ | ╥ | ╨ | ╫ | ┌ | ┘ | ┼ | ┌ | ┐ | └ | ┘ | │ | ─ |
@@ -85,6 +97,8 @@ Used in Powersoft Thai Professional EGA/VGA driver.
 | Fx | ﻿ื | ﻿ื | ﻿ุ | ﻿ู |  ฺ | เ | แ | โ | ใ | ไ | ﻿ำ |   |   |   |   |   |
 
 ## Phillips
+
+From MS-DOS 6.22 Thai Edition's THAICONV.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -101,5 +115,4 @@ Used in Powersoft Thai Professional EGA/VGA driver.
 
 **Reference:**
 
-- ยืน ภู่วรวรรณ. *เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์*. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
 - พิสุทธิ์ สถาพรภูริศักดิ์. (2527). *ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1*. ไมโคร อิเลคทรอนิคส์, (8), 65-68. [Archive.org](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up)
