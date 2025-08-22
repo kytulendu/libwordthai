@@ -33,9 +33,14 @@
 
 ## ลิงค์ดาวน์โหลด
 
-ดาวน์โหลด ขวัญใจนักพิมพ์ดีด (Thai Easy Writer) ได้[ที่นี่](https://archive.org/details/thai-easy-writer-4.1/)
-หรือ[ที่นี่](https://vetusware.com/download/Thai%20Easy%20Writer%204.2%20TH/?id=18067)
-หรือ[ที่นี่](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) (ใน PC/Office/Thai Easy Writer/)
+- [Thai Easy Writer 4.1 (1985) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.1/)
+- [Thai Easy Writer 4.2 (1986) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.2/)
+- [Thai Easy Writer 4.2 บน Vetusware](https://vetusware.com/download/Thai%20Easy%20Writer%204.2%20TH/?id=18067)
+- [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Thai Easy Writer`
+
+## คู่มือ
+
+- [เวิร์ดโปรเซสซิ่ง](https://archive.org/details/wordprocessing_1989)
 
 ## อ้างอิง
 

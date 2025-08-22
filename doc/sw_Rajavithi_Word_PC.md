@@ -50,9 +50,13 @@
 
 ## ลิงค์ดาวน์โหลด
 
-ดาวน์โหลด ราชวิถีเวิร์ดพีซี (Rajavithi Word PC) ได้[ที่นี่](https://archive.org/details/rajavithi-word-pc)
-หรือ[ที่นี่](https://archive.org/details/rajavithi-word)
-หรือ[ที่นี่](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) (ใน PC/Office/Rajavithi Word PC)
+- [Rajavithi Word PC collections บน Internet Archive](https://archive.org/details/rajavithi-word-pc)
+- [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Rajavithi Word PC`
+
+## คู่มือ
+
+- [ราชวิถี เวิร์ด พีซี 2.1](https://archive.org/details/rajavithi-word-pc-2.1-manual)
+- [คู่มือโปรแกรมราชวิถี Word PC 2.3](https://archive.org/details/rajavithi-word-pc-2.3-manual)
 
 ## อ้างอิง
 

@@ -31,11 +31,21 @@
 * สามารถแยกเก็บพารามิเตอร์ที่อยู่ท้ายแฟ้มข้อมูล และเขียนกลับลงไปหลังจากแก้ไขแฟ้มข้อมูลและทำการบันทึก
 * ไม่ต้องใช้การ์ดภาษาไทยหรือไดร์เวอร์ภาษาไทยในการแสดงผล
 
+## ลิงค์ดาวน์โหลด
+
+- [Rama SpellCheck collections บน Internet Archive](https://archive.org/details/rama-spell-check)
+- [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Rajavithi Word PC`
+
+## คู่มือ
+
+- [ราชวิถี เวิร์ด พีซี 2.1](https://archive.org/details/rajavithi-word-pc-2.1-manual)
+- [คู่มือโปรแกรมราชวิถี Word PC 2.3](https://archive.org/details/rajavithi-word-pc-2.3-manual)
+
 ## อ้างอิง
 
 ### หนังสือ
 
-* ทวีศักดิ์ จันทร์วิทยานุชิต. *การตรวจคำสะกดภาษาไทย*. ชมรมไมโครคอมพิวเตอร์โรงพยาบาลรามาธิบดี, 2535. ISBN 974-587-330-6
+* ทวีศักดิ์ จันทร์วิทยานุชิต. *การตรวจคำสะกดภาษาไทย*. ชมรมไมโครคอมพิวเตอร์โรงพยาบาลรามาธิบดี, 2535. ISBN 974-587-330-6.
 * Phagos Technology และชมรมไมโครคอมพิวเตอร์ รพ.รามาธิบดี. *คู่มือรามา SpellCheck version 2.1*. พิมพ์ครั้งที่ 1, กรุงเทพฯ : บริษัทพิมพ์สวย จำกัด, 2538.
 
 ### บทความ

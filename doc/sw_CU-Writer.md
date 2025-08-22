@@ -106,9 +106,10 @@
 
 ## ลิงค์ดาวน์โหลด
 
-ดาวน์โหลด CU Writer และรหัสต้นฉบับของ CU Writer 1.41 ได้[ที่นี่](https://archive.org/details/cu-writer)
-หรือ[ที่นี่](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) (ใน PC/Office/CU-Writer)
-หรือที่ ftp://ftp.cs.washington.edu/pub/thaisys/software/dos/cu-writer/
+- [CU-Writer collections บน Internet Archive](https://archive.org/details/cu-writer)
+- [ftp://ftp.cs.washington.edu/pub/thaisys/software/dos/cu-writer/](ftp://ftp.cs.washington.edu/pub/thaisys/software/dos/cu-writer/)
+- [รหัสต้นฉบับของซียูไรเตอร์ รุ่น 1.41 บน GitHub](https://github.com/kytulendu/CW141)
+- [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/CU-Writer`
 
 ## คู่มือ
 
@@ -119,7 +120,7 @@
 ### หนังสือ
 
 * เดือน สินธุพันธ์ประทุม และสำนวน หิรัญวงษ์. *CU Writer : ศึกษาด้วยตนเอง เวอร์ชัน 1.52 และ 1.6*. พิมพ์ครั้งที่ 2. กรุงเทพฯ : โรงพิมพ์จุฬาลงกรณ์มหาวิทยาลัย, 2536.
-* บุญเรือน คงเขียว. *คู่มือการใช้งาน CU Writer เวอร์ชั่น 1.52 และ 1.6*. ซีเอ็ดยูเคชั่น, 2537. ISBN 974-510-276-8
+* บุญเรือน คงเขียว. *คู่มือการใช้งาน CU Writer เวอร์ชั่น 1.52 และ 1.6*. ซีเอ็ดยูเคชั่น, 2537. ISBN 974-510-276-8.
 * วันเพ็ญ ขจรกลิ่น. *CU-Writer และโปรแกรมจัดทำเอกสารแบบครบวงจร*. พิมพ์ครั้งที่ 1. กรุงเทพฯ : เวฟพอยท์, 2536. ISBN/ISSN 974-704-556-7.
 * บริษัท เวฟพอยท์ จำกัด. *CU-Writer และจุฬาจารึก*. กรุงเทพฯ : เวฟพอยท์, 2538. ISBN/ISSN 974-893-922-7.
 
