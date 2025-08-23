@@ -259,7 +259,7 @@ Used in MicroWiz XTRA-VGA driver.
 
 **Reference:**
 
-- ยืน ภู่วรวรรณ. *เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์*. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
-- พิสุทธิ์ สถาพรภูริศักดิ์. (2527). *ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1*. ไมโคร อิเลคทรอนิคส์, (8), 65-68. [Archive.org](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up)
-- [std_to_ku and ku_to_std table from CU-Writer 1.41 source code](https://github.com/kytulendu/CW141/blob/master/SRC/COMMON/HDISP.ASM)
-- [The character set of the PC-8001](https://commons.wikimedia.org/wiki/File:PC-8001_character_set.png)
+* ยืน ภู่วรวรรณ. เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
+* พิสุทธิ์ สถาพรภูริศักดิ์. (2527). ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1. ไมโคร อิเลคทรอนิคส์, (8), 65-68. [Archive.org](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up)
+* [std_to_ku and ku_to_std table from CU-Writer 1.41 source code](https://github.com/kytulendu/CW141/blob/master/SRC/COMMON/HDISP.ASM)
+* [The character set of the PC-8001](https://commons.wikimedia.org/wiki/File:PC-8001_character_set.png)

@@ -33,26 +33,27 @@
 
 ## ลิงค์ดาวน์โหลด
 
-- [Thai Easy Writer 4.1 (1985) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.1/)
-- [Thai Easy Writer 4.2 (1986) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.2/)
-- [Thai Easy Writer 4.2 บน Vetusware](https://vetusware.com/download/Thai%20Easy%20Writer%204.2%20TH/?id=18067)
-- [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Thai Easy Writer`
+* [Thai Easy Writer 4.1 (1985) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.1/)
+* [Thai Easy Writer 4.2 (1986) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.2/)
+* [Thai Easy Writer 4.2 บน Vetusware](https://vetusware.com/download/Thai%20Easy%20Writer%204.2%20TH/?id=18067)
+* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Thai Easy Writer`
 
 ## คู่มือ
 
-- [เวิร์ดโปรเซสซิ่ง](https://archive.org/details/wordprocessing_1989)
+* [เวิร์ดโปรเซสซิ่ง](https://archive.org/details/wordprocessing_1989)
 
 ## อ้างอิง
 
 ### หนังสือ
 
-* ยืน ภู่วรวรรณ และพิชิต สุขเจริญพงษ์. *เวิร์ดโปรเซสซิ่ง*. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2528. ISBN 974-509-214-2.
+* ยืน ภู่วรวรรณ และพิชิต สุขเจริญพงษ์. เวิร์ดโปรเซสซิ่ง. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2528. ISBN 974-509-214-2.
+* ยืน ภู่วรวรรณ. เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
 
 ### บทความ
 
-* กองบรรณาธิการ. (2525). *ข่าว : Thai word processing จากห้องปฏิบัติการวิจัยไมโครคอมพิวเตอร์ เกษตร*. เซมิคอนดักเตอร์ อิเล็คทรอนิกส์, (53), 71-72.
-* กองบรรณาธิการ. (2526). *ข่าว : ไมโครคอมพิวเตอร์ภาษาไทย*. เซมิคอนดักเตอร์ อิเล็คทรอนิกส์, (57), 98-99.
-* ห้องปฏิบัติการวิจัยไมโครฯ มหาวิทยาลังเกษตรฯ. (2528). *ขวัญใจนักพิมพ์ดีด*. ไมโครคอมพิวเตอร์, (14).
-* ห้องปฏิบัติการวิจัยไมโครฯ มหาวิทยาลังเกษตรฯ. (2529). *ขวัญใจนักพิมพ์ดีด เวอร์ชัน 4.10*. ไมโครคอมพิวเตอร์, (19), 86-88.
-* ประภาส จงสถิตย์วัฒนา. (2530). *โปรแกรมลดขนาดแฟ้มขวัญใจนักพิมพ์ดีดได้ 5 เท่า*. ไมโครคอมพิวเตอร์, (34), 212-217.
+* กองบรรณาธิการ. (2525). ข่าว : Thai word processing จากห้องปฏิบัติการวิจัยไมโครคอมพิวเตอร์ เกษตร. เซมิคอนดักเตอร์ อิเล็คทรอนิกส์, (53), 71-72.
+* กองบรรณาธิการ. (2526). ข่าว : ไมโครคอมพิวเตอร์ภาษาไทย. เซมิคอนดักเตอร์ อิเล็คทรอนิกส์, (57), 98-99.
+* ห้องปฏิบัติการวิจัยไมโครฯ มหาวิทยาลังเกษตรฯ. (2528). ขวัญใจนักพิมพ์ดีด. ไมโครคอมพิวเตอร์, (14).
+* ห้องปฏิบัติการวิจัยไมโครฯ มหาวิทยาลังเกษตรฯ. (2529). ขวัญใจนักพิมพ์ดีด เวอร์ชัน 4.10. ไมโครคอมพิวเตอร์, (19), 86-88.
+* ประภาส จงสถิตย์วัฒนา. (2530). โปรแกรมลดขนาดแฟ้มขวัญใจนักพิมพ์ดีดได้ 5 เท่า. ไมโครคอมพิวเตอร์, (34), 212-217.
 * Thaweesak Koanantakool. (1997). [Multilingual Information Technology Initiatives in Thailand](https://www.nectec.or.th/it-standards/mlit97/keynote.html). Retrieved 30 March 2025, from https://www.nectec.or.th/it-standards/mlit97/keynote.html
