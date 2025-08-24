@@ -74,7 +74,7 @@ Used in Thai system in Sanco iBex and Oliviti computers distributed by Loxley Co
 | Ex | ﻿๋ | ﻿์ | ๆ | ฯ |  ํ |  ั้ |  ั่ |  ั๊ |  ั๋ |  ิ่ |  ิ้ |  ิ๊ |  ิ๋ |  ิ์ |  ี่ |  ี้ |
 | Fx |  ี๊ |  ี๋ |  ึ่ |  ึ้ |  ึ๊ |  ึ๋ |  ื่ |  ื้ |  ื๊ |  ื๋ | โ | ใ | ไ |   |   |   |
 
-## SCT
+## SCT (บริษัท ค้าสากลซีเมนต์ไทย จำกัด)
 
 From MS-DOS 6.22 Thai Edition's THAICONV.
 
