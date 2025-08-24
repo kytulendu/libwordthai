@@ -9,6 +9,7 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 - [iRC Standard Word](sw_iRC_Standard_Word.md)
 - [Rajavithi Word PC (ราชวิถีเวิร์ดพีซี หรือ เวิร์ดราชวิถี)](sw_Rajavithi_Word_PC.md)
 - [Rama Spell Check (เวิร์ดรามา)](sw_Rama_SpellCheck.md)
+- [Sahaviriya Word](sw_Sahaviriya_Word.md)
 - [Thai Easy Writer (ขวัญใจนักพิมพ์ดีด)](sw_ThaiEasy_Writer.md)
 
 ## File formats
