@@ -15,4 +15,5 @@ iRC Standard Word along with Rama SpellCheck is one of the few Thai word process
 
 ## Manual
 
-* [คู่มือเวิร์ดโปรเซสเซอร์ไทย อังกฤษ Standard Word Release 2](https://archive.org/details/irc-standard-word-release-2-manual)
+* อินเตอร์เนชันแนล รีเสริช คอร์ปอร์เรชั่น จำกัด. [คู่มือเวิร์ดโปรเซสเซอร์ไทย อังกฤษ Standard Word](https://archive.org/details/irc-standard-word-manual). พิมพ์ครั้งที่ 1. กรุงเทพฯ : อินฟอร์เมติก บิซิเนส พับลิเคชัน จำกัด, 2532.
+* อินเตอร์เนชันแนล รีเสริช คอร์ปอร์เรชั่น จำกัด. [คู่มือเวิร์ดโปรเซสเซอร์ไทย อังกฤษ Standard Word Release 2](https://archive.org/details/irc-standard-word-release-2-manual). พิมพ์ครั้งที่ 1. กรุงเทพฯ : อินฟอร์เมติก บิซิเนส พับลิเคชัน จำกัด, 2535.

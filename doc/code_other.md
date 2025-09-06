@@ -138,4 +138,4 @@ From MS-DOS 6.22 Thai Edition's THAICONV.
 
 **Reference:**
 
-* พิสุทธิ์ สถาพรภูริศักดิ์. (2527). ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1. ไมโคร อิเลคทรอนิคส์, (8), 65-68. [Archive.org](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up)
+* พิสุทธิ์ สถาพรภูริศักดิ์. (2527). [ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up). ไมโคร อิเลคทรอนิคส์, (8), 65-68.

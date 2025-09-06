@@ -109,3 +109,8 @@ Below is example from `README.STW` from iRC Standard Word 2.1. iRC Standard Word
 | 81-96  | 45 6e 64 00 00 00 00 00 00 58 05 00 00 00 7e 0c | | Unknown |
 | 97-112 | 00 00 00 b7 12 00 00 00 52 1a 00 00 00 2c 20 00 | | Unknown |
 | 113-128 | 00 00 79 27 00 00 00 0f 2d 00 00 00 1c 30 00 00 | | Unknown |
+
+## Reference
+
+* อินเตอร์เนชันแนล รีเสริช คอร์ปอร์เรชั่น จำกัด. [คู่มือเวิร์ดโปรเซสเซอร์ไทย อังกฤษ Standard Word](https://archive.org/details/irc-standard-word-manual). พิมพ์ครั้งที่ 1. กรุงเทพฯ : อินฟอร์เมติก บิซิเนส พับลิเคชัน จำกัด, 2532.
+* อินเตอร์เนชันแนล รีเสริช คอร์ปอร์เรชั่น จำกัด. [คู่มือเวิร์ดโปรเซสเซอร์ไทย อังกฤษ Standard Word Release 2](https://archive.org/details/irc-standard-word-release-2-manual). พิมพ์ครั้งที่ 1. กรุงเทพฯ : อินฟอร์เมติก บิซิเนส พับลิเคชัน จำกัด, 2535.

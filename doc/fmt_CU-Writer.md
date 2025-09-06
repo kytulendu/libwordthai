@@ -187,3 +187,9 @@ After end-of-file marker (1Ah), 110 byte, CU-Writer version 1.5 or newer.
 |103-106 | 04 00 4E 00             |            |                               |
 | 107    | 13                      |            | CW16 CW152 CW153 Newly saved : 13; CW153\PERIODFL.ELN : 0D |
 |108-110 | 00 6E 00                |            |                               |
+
+## Reference
+
+* เดือน สินธุพันธ์ประทุม และสำนวน หิรัญวงษ์. [CU Writer : ศึกษาด้วยตนเอง เวอร์ชัน 1.52 และ 1.6](https://archive.org/details/cu-writer_20241116). พิมพ์ครั้งที่ 2. กรุงเทพฯ : โรงพิมพ์จุฬาลงกรณ์มหาวิทยาลัย, 2536.
+* บุญเรือน คงเขียว. คู่มือการใช้งาน CU Writer เวอร์ชั่น 1.52 และ 1.6. กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2537. ISBN 974-510-276-8.
+* [เอกสาร และคู่มือที่มาพร้อมกับโปรแกรม CU-Writer](https://archive.org/details/cu-writer) (ใน CWDOC)

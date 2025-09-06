@@ -162,3 +162,8 @@ After end-of-file marker (1Ah), 115 byte.
 | 38-70  | 00 10 04 01 00 40 10 04 01 00 40 10 04 01 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | | Tab setting |
 | 71-114 | 1A 1A 1A ...            |            |                               |
 | 115    | 00                      |            |                               |
+
+## Reference
+
+* ชุษณะ มะกรสาร, สมชาย รงค์กรรภิรมย์ และสุรพล เจริญรัตนวงศ์. [ราชวิถี Word PC version 2.1](https://archive.org/details/rajavithi-word-pc-version-2.1-manual). พิมพ์ครั้งที่ 1, กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2534. ISBN/ISSN 974-509-227-4.
+* ชัยรัตน์ เจน. [ราชวิถี เวิร์ด พีซี 2.1](https://archive.org/details/rajavithi-word-pc-2.1-manual). ม.ป.ท.: ม.ป.พ., 2535.

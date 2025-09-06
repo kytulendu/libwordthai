@@ -226,5 +226,5 @@ Used in MicroWiz XTRA-VGA driver.
 * [Thai Industrial Standard 620-2533 - Wikipedia](https://en.wikipedia.org/wiki/Thai_Industrial_Standard_620-2533)
 * [TIS-620 official reference](http://www.nectec.or.th/it-standards/std620/std620.html) (in Thai)
 * Announcement in Royal Gazette of [TIS 620-2533](https://web.archive.org/web/20111207224549/http://www.ratchakitcha.soc.go.th/DATA/PDF/2533/D/140/6318.PDF) and [TIS 620-2529](https://web.archive.org/web/20111207215038/http://www.ratchakitcha.soc.go.th/DATA/PDF/2529/D/102/2720.PDF)
-* ทวีศักดิ์ กออนันตกูล และคณะทำงานร่างข้อกำหนดร่วมเพื่อการเขียนโปรแกรมซึ่งแสดงผลเป็นภาษาไทย. คอมพิวเตอร์กับภาษาไทย : การพัฒนามาตรฐานเบื้องต้นสำหรับเทคโนโลยีสารสนเทศของไทย. กรุงเทพฯ : ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC), 2534.
+* ทวีศักดิ์ กออนันตกูล และคณะทำงานร่างข้อกำหนดร่วมเพื่อการเขียนโปรแกรมซึ่งแสดงผลเป็นภาษาไทย. [คอมพิวเตอร์กับภาษาไทย : การพัฒนามาตรฐานเบื้องต้นสำหรับเทคโนโลยีสารสนเทศของไทย](https://archive.org/details/19911010-computers-and-the-thai-language). กรุงเทพฯ : ศูนย์เทคโนโลยีอิเล็กทรอนิกส์และคอมพิวเตอร์แห่งชาติ (NECTEC), 2534.
 * Apple (2005-04-05). ["Map (external version) from Mac OS Thai character set to Unicode 3.2 and later"](https://unicode.org/Public/MAPPINGS/VENDORS/APPLE/THAI.TXT). Unicode Consortium.
