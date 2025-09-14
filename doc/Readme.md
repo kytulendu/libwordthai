@@ -3,10 +3,12 @@
 For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 
 ## Software information
-* Thai Character Encoding
-    * [Kaset (เกษตร)](code_Kaset.md)
-    * [TIS-620](code_TIS-620.md)
-    * [Other](code_other.md)
+
+* Thai character encoding
+    * [Kaset (เกษตร) character encoding](code_Kaset.md)
+    * [TIS-620 character encoding](code_TIS-620.md)
+    * [Other character encoding](code_other.md)
+    * [Thai character code used in printers](code_printers.md)
 * [Alonggod (อลงกต)](sw_Alonggod.md)
 * [CU-Writer (เวิร์ดจุฬา) and CU-Writer for Windows](sw_CU-Writer.md)
 * [iRC Standard Word](sw_iRC_Standard_Word.md)
