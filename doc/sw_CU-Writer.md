@@ -138,7 +138,7 @@
 * ดุสิต เลาหสินณรงค์. (2537). CU WRITER ฉบับภาษาลาว. คอมพิวเตอร์ทูเดย์, (38), 125-127.
 * ดุสิต เลาหสินณรงค์. (2537). เทคนิคพิเศษในการใช้งาน CU - WRITER. คอมพิวเตอร์ทูเดย์, (40), 61-64.
 * ไม่ปรากฏชื่อผู้แต่ง. (2538). [จุฬาจารึก CW บนวินโดว์ส](https://archive.org/download/cu-writer/BCM_000_073_P197-200.pdf). คอมพิวเตอร์บิซิเนส แมกะซีน, (73), 197-200.
-* [CU-Writer](http://www.cp.eng.chula.ac.th/~pizzanu/temp/cuwriter.pdf)
+* ไม่ปรากฏชื่อผู้แต่ง. (2553). [CU-Writer](http://www.cp.eng.chula.ac.th/~pizzanu/temp/cuwriter.pdf). สืบค้นเมื่อ 25 กันยายน 2568, จาก http://www.cp.eng.chula.ac.th/~pizzanu/temp/cuwriter.pdf
 
 ### อื่นๆ
 
