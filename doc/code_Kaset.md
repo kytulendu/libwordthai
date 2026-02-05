@@ -260,6 +260,7 @@ Used in MicroWiz XTRA-VGA driver.
 **Reference:**
 
 * ?. (2526). ออกจอแก้ว. ไมโครคอมพิวเตอร์, (3).
+* ยืน ภู่วรวรรณ. (2526). ถึงเวลาที่จะหารหัสมาตรฐานภาษาไทยแล้วหรือยัง. ไมโครคอมพิวเตอร์, (4), 97-99.
 * ยืน ภู่วรวรรณ. [เรื่องน่ารู้เกี่ยวกับไมโครคอมพิวเตอร์](https://archive.org/details/microcomputer). กรุงเทพฯ : ซีเอ็ดยูเคชั่น, 2527. ISBN 974-796-428-3.
 * พิสุทธิ์ สถาพรภูริศักดิ์. (2527). [ประวัติและแนวทางการจัดมาตรฐานรหัสอักษรไทย ตอนที่ 1](https://archive.org/details/micro-electronics-magazine-issue-8/page/64/mode/2up). ไมโคร อิเลคทรอนิคส์, (8), 65-68.
 * [std_to_ku and ku_to_std table from CU-Writer 1.41 source code](https://github.com/kytulendu/CW141/blob/master/SRC/COMMON/HDISP.ASM)
