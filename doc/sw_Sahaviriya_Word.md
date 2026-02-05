@@ -12,7 +12,7 @@ Sahaviriya Word 2.4.1 Main Menu
 
 Sahaviriya Word Editor
 
-Sahaviriya Word is a Thai/English word processor program running on CP/M and MS-DOS from Sahaviriya OA (now known as SVOA).
+Sahaviriya Word is a Thai/English word processor program running on CP/M and MS-DOS from Sahaviriya OA Co.,Ltd. (now known as SVOA).
 First release CP/M version in 1983 (need confirmation), sold with OKI if800 model20, OKI if800 model30 and Epson QX-10 computer that Sahaviriya Infotech Computer (SIC) was the official distributor in Thailand.
 Later version are for DOS, first release in 1986. Last DOS version is version 2.4.1 released in 1994.
 
