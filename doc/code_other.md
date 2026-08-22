@@ -61,7 +61,7 @@ From "ประวัติและแนวทางการจัดมา�
 
 From ThaiSoft Thai System Manager (TSM) File Converter Utility.
 
-Used in Thai system in Sanco iBex and Oliviti computers distributed by Loxley Co.,Ltd.
+Used in Thai system in Sanco iBex and Olivetti computers distributed by Loxley Co.,Ltd.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
