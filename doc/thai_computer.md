@@ -110,7 +110,7 @@
 
 ถึงแม้ว่าจะมี Windows 3.1 Thai Edition แล้วก็ตาม ก็มีผู้พัฒนาระบบภาษาไทยสำหรับ Windows 3.1 อยู่ โดยจะมี หน้าต่างแบบไทยไทย (Archanetic Thai System), Thai System Manager for Windows (TSMW) ของ บริษัท ThaiSoft และ ThaiWin 2.1 หรือ 3.1 ของ บริษัท 315
 
-ส่วน Windows 95 แม้จะมี Windows 95 Thai Edition ก็มีผู้พัฒนาระบบภาษาไทยอยู่ คือ ThaiMaster 95 ของบริษัท Solution Master ซึ่งบริษัทนี้ทำระบบภาษาไทยของ Windows NT 4.0 ด้วย (ThaiMaster 1.0 for Windows NT 4.0)
+ส่วน Windows 95 แม้จะมี Windows 95 Thai Edition ก็มีผู้พัฒนาระบบภาษาไทยอยู่ คือ ThaiMaster 95 ของบริษัท Solution Master ซึ่งบริษัทนี้ได้พัฒนาระบบภาษาไทย ThaiMaster NT สำหรับ Windows NT 4.0 ด้วย
 
 Microsoft Windows Thai Edition ที่พัฒนาโดย Microsoft ได้แก่
 
@@ -135,7 +135,7 @@ Microsoft Windows Thai Edition ที่พัฒนาโดย Microsoft ไ�
 
 สำหรับ Mac OS X นั้น สามารถใช้งานภาษาไทยได้โดยไม่ต้องติดตั้งระบบภาษาไทยเพิ่มแต่อย่างใด
 
-นอกจากนี้ยังมีโปรแกรมที่ใช้งานคู่กับระบบภาษาไทย TLT สำหรับโปรแกรม Desktop Publishing คือโปรแกรม Thai Support Plug-in โดย Macintosh Center Co.,Ltd. และ Kokai 2000 โดย Prepress Solution Co.,Ltd.  โดยโปรแกรมดังกล่าวใช้งานตัดคำภาษาไทย และแก้สระจม/ลอยในโปรแกรม PageMaker, QuarkXPress, InDesign, Photoshop, Illustrator และ Macromedia FreeHand เมื่อใช้งานกับฟอนต์ที่รองรับ
+นอกจากนี้ยังมีโปรแกรมที่ใช้งานคู่กับระบบภาษาไทย TLT สำหรับโปรแกรม Desktop Publishing คือโปรแกรม Thai Support Plug-in โดย Macintosh Center Co.,Ltd. และ Kokai 2000 โดย Prepress Solution Co.,Ltd.  โดยโปรแกรมดังกล่าวใช้งานตัดคำภาษาไทย และแก้วรรณยุกต์จม/ลอยในโปรแกรม PageMaker, QuarkXPress, InDesign, Photoshop, Illustrator และ Macromedia FreeHand เมื่อใช้งานกับฟอนต์ที่รองรับ
 
 ## ภาษาไทยสำหรับระบบปฏิบัติการอื่นๆ
 
