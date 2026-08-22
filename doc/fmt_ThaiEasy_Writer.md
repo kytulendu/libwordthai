@@ -35,7 +35,7 @@ Text data record format are follow.
 
 ## Control Code
 
-Using `9F` followed by `B` for bold character, `S` for underline character, `Q` for condensed character, `E` for small character and `A` for enlarge character.
+Using `9F` followed by `B` for bold character, `S` for underline character, `Q` for condensed character, `E` for small character and `A` for enlarge character. The control code will be on the middle level characters text data record.
 
 | Hex  |            Meaning            |
 |:----:|:----------------------------- |
