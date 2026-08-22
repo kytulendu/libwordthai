@@ -119,9 +119,11 @@ Also include combined characters in the table. At 60h, 7Bh-7Dh, E8h-EBh, F1h-FBh
 
 ## Kaset v3
 
+This was the most used variant of Kaset character encoding.
+
 The character encoding did not have Thai digit, `kho khuat (ฃ)`, `kho khon (ฅ)`, `tua lue (ฦ)`, `lak khang yao (ๅ)`, `phinthu (อฺ)`, `yamakkan (อ๎)`, `fong man (๏)`, `angkhan khu (๚)`, `kho mut (๛)` and `Baht symbol (฿)`.
 
-Combined characters at E6h-FEh is only used by Thai Easy Writer file as I known of.
+Combined characters at E6h-FEh is normally used as display font, but some software may use it to store data such as Thai Easy Writer.
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
