@@ -2,6 +2,8 @@
 
 This software use Loxley Thai character encoding.
 
+While Loxley Thai character encoding have table and Thai number characters, this software did not use or support it.
+
 The file format is similar to WordStar file format.
 
 ## Control Code
