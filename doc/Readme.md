@@ -10,22 +10,22 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
     * [Other character encoding](code_other.md)
     * [Thai character code used in printers](code_printers.md)
 * [Alonggod (อลงกต)](sw_Alonggod.md)
-* Computer Union Word
+* [Computer Union Word](sw_Computer_Union_Word.md)
 * [CU-Writer (เวิร์ดจุฬา) and CU-Writer for Windows](sw_CU-Writer.md)
 * DuangJan Word Processor
 * [iRC Standard Word](sw_iRC_Standard_Word.md)
-* Khum Thai (คำไทย) Word Processor
-* KMITNB Word Processor
-* Loxley Thai Word Processor
+* [Khum Thai (คำไทย) Word Processor](sw_Khum_Thai_Word_Processor.md)
+* [KMITNB Word Processor](sw_KMITNB_Word_Processor.md)
+* [Loxley Thai Word Processor](sw_Loxley_Thai_Word_Processor.md)
 * MicroWiz Thai Word (WordStar clone)
 * [Rajavithi Word PC (ราชวิถีเวิร์ดพีซี หรือ เวิร์ดราชวิถี)](sw_Rajavithi_Word_PC.md)
 * [Rama Spell Check (เวิร์ดรามา)](sw_Rama_SpellCheck.md)
-* RLAB Word
+* [RLAB Word](sw_RLAB_Word.md)
 * [Sahaviriya Word](sw_Sahaviriya_Word.md)
 * Supat Editor
 * [Thai Easy Writer (ขวัญใจนักพิมพ์ดีด)](sw_ThaiEasy_Writer.md)
-* Venus Word Processor
-* Word Lampang (เวิร์ดลำปาง) (ลำปางเอกสาร)
+* [Venus Word Processor](sw_VENUS_Word.md)
+* [Word Lampang (เวิร์ดลำปาง) (ลำปางเอกสาร)](sw_Word_Lampang.md)
 
 ## File formats
 
