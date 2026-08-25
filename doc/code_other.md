@@ -134,6 +134,23 @@ From MS-DOS 6.22 Thai Edition's THAICONV.
 | Ex | ะ | ั | า | ำ |  ิ |  ี |  ึ |  ื |  ุ |  ู | เ | แ | โ | ใ | ไ |  ์ |
 | Fx |  ็ |  ่ |  ้ |  ๊ |  ๋ | ๆ |   |   |   |   |   |   |   |   |   |   |
 
+## Sahaviriya Infotech Computer (SIC)
+
+From [Thai EPSON QX-10](https://archive.org/details/epson-qx-10-rom) distributed by Sahaviriya Infotech Computer.
+
+![epson-qx10-sic](./resources/epson-qx10-sic.png)
+
+|    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
+|:--:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 8x | ╭ | ╮ | ╰ | ╯ | ┬ | ┤ | ┴ | ├ | ┼ | │ | ─ | ⎺ |   | £ | ¥ |   |
+| 9x | ← | ↑ | → | ↓ | ± | × | ÷ | μ | π | Ω | ∑ | ≈ | ≤ | ≠ | ≥ | ~ |
+| Ax |   | ก | ข | ค | ฆ | ง | จ | ฉ | ช | ซ | ฌ | ญ | ฎ | ฏ | ฐ | ฑ |
+| Bx | ฒ | ณ | ด | ต | ถ | ท | ธ | น | บ | ป | ผ | ฝ | พ | ฟ | ภ | ม |
+| Cx | ย | ร | ฤ | ล | ฦ | ว | ศ | ษ | ส | ห | ฬ | อ | ฮ | ฿ | ๆ | ฯ |
+| Dx | ะ | า | ﻿ำ | เ | แ | ![kk1](./resources/kk1.png) | ![kk2](./resources/kk2.png) | ![kk3](./resources/kk3.png) | ![kk4](./resources/kk4.png) | ﻿่ | ﻿้ | ﻿๊ | ﻿๋ | ﻿์ | ﻿ั |  ั่ |
+| Ex |  ั้ |  ั๊ |  ั๋ |  ิ |  ิ่ |  ิ้ |  ิ๊ |  ิ๋ |  ิ์ | ﻿ี |  ี่ |  ี้ |  ี๊ |  ี๋ | ﻿ึ |  ึ่ |
+| Fx |  ึ้ |  ึ๊ |  ึ๋ | ﻿ื |  ื่ |  ื้ |  ื๊ |  ื๋ | ﻿็ | ﻿ํ |  ฺ | ﻿ุ | ﻿ู | █ | █ |   |
+
 ---
 
 **Reference:**
