@@ -21,29 +21,33 @@ Record 3-5 is unused, text data starting at record 6 or at offset 0x500.
 |  xx+1  | xxxx+256  |       | Blank record                       |
 |  xx+2  | xxxx+512  |       | Blank record                       |
 
-Each text data record represent 1 line of 80 column Thai text, which store in 3 level, top, middle and under characters, each is 80 bytes in length, with CR LF (0x0d 0x0a) to indicated end of level.
-The top level characters are stored in combined character code in Kaset character encoding (See the first table).
+Each text data record represent 1 line of 80 column Thai text, which store in 3 level, upper, middle and lower characters, each is 80 bytes in length, with CR LF (0x0d 0x0a) to indicated end of line.
+The upper level characters are stored in combined character code in Kaset character encoding (See the first table).
+
+For superscript and subscript character, the program store it in upper and lower character level, with space (0x20) in middle character level.
 
 Text data record format are follow.
 
 |  Offset | Length |           Meaning          |
 |:-------:|:------:|:-------------------------- |
-|   0-79  |   80   | Top level characters, combined character code in Kaset character encoding |
+|   0-79  |   80   | Upper level characters, combined character code in Kaset character encoding |
 |  80-159 |   80   | Middle level characters    |
-| 160-239 |   80   | Under level characters     |
+| 160-239 |   80   | Lower level characters     |
 | 240-255 |   16   | Unused, filled with 0x00   |
 
 ## Control Code
 
-Using `9F` followed by `B` for bold character, `S` for underline character, `Q` for condensed character, `E` for small character and `A` for enlarge character. The control code will be on the middle level characters text data record.
+The control code is on the middle level characters.
 
-| Hex  |            Meaning            |
-|:----:|:----------------------------- |
-| 9F42 | Toggles bold character        |
-| 9F51 | Toggles underline character   |
-| 9F53 | Toggles condensed character   |
-| 9F45 | Toggles small character       |
-| 9F41 | Toggles enlarge character     |
+Using `9F` followed by `B` for bold character, `S` for underline character, `Q` for condensed character, `E` for small character and `A` for enlarge character.
+
+| Hex  | ASCII |            Meaning            |
+|:----:|:-----:|:----------------------------- |
+| 9F41 |   A   | Toggles enlarge character     |
+| 9F42 |   B   | Toggles bold character        |
+| 9F45 |   E   | Toggles small character       |
+| 9F51 |   Q   | Toggles condensed character   |
+| 9F53 |   S   | Toggles underline character   |
 
 ## At Command
 
