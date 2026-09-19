@@ -37,18 +37,18 @@ Note: Can use lower case.
 | .LS n        | Set line spacing (0-255)                            |
 | .PL n        | Set paper length in inch                            |
 | .MT n        | Print number of line on page header (1-4)           |
-| .MB n        | Unknown                                             |
-| .HM n        | Unknown                                             |
-| .FM n        | Unknown                                             |
-| .PC n        | Unknown                                             |
+| .MB n        | Set bottom margin in lines                          |
+| .HM n        | Set header in lines                                 |
+| .FM n        | Set footer in lines                                 |
+| .PC n        | Print page number at column n                       |
 | .PO n        | Set left margin (0-45)                              |
 | .PA          | Page break                                          |
-| .CP n        | Unknown                                             |
+| .CP n        | Page break if line is less than n                   |
 | .HEn<text>   | Print page header (1-4)                             |
 | .FO<text>    | Print page footer                                   |
-| .OP n        | Unknown                                             |
+| .OP n        | Don't print page number                             |
 | .PN n        | Set current page number (0-9999)                    |
-| .CW n        | Unknown                                             |
+| .CW n        | Character per inch, default 10 : 10, 12, 15, 17, 20 |
 | .DF<file>    | Open file contain name list in `file` for mailmerge, CSV file format |
 | .RV v1,v2,v3,... | Set variable for mailmerge, Using &v1& &v2& ... on document. |
 | .AV n        | Unknown                                             |
