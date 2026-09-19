@@ -22,7 +22,7 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 * [RLAB Word](sw_RLAB_Word.md)
 * [Sahaviriya Word](sw_Sahaviriya_Word.md)
 * Supat Editor
-* [Thai Easy Writer (ขวัญใจนักพิมพ์ดีด)](sw_ThaiEasy_Writer.md)
+* [Thai Easy Writer (ขวัญใจนักพิมพ์ดีด)](sw_Thai_Easy_Writer.md)
 * Thai Word (aka. Thai WordStar)
 * [Venus Word Processor](sw_VENUS_Word.md)
 * [Word Lampang (เวิร์ดลำปาง) (ลำปางเอกสาร)](sw_Word_Lampang.md)
@@ -39,12 +39,12 @@ For converter code, see at https://github.com/kytulendu/Stuff/tree/master/TCONV
 * [Loxley Thai Word Processor](fmt_Loxley_Thai_Word_Processor.md)
 * [Rajavithi Word PC](fmt_Rajavithi_Word_PC.md)
 * Rajavithi Word PC Math
-* Rama Spell Check
+* [Rama Spell Check](fmt_Rama_Spell_Check.md)
 * RLAB Word
-* Sahaviriya Word
-* SCT Word Processor
+* [Sahaviriya Word](fmt_Sahaviriya_Word.md)
+* [SCT Word Processor](fmt_SCT_Word_Processor.md)
 * [Supat Editor](fmt_Supat_Editor.md)
-* [Thai Easy Writer](fmt_ThaiEasy_Writer.md)
+* [Thai Easy Writer](fmt_Thai_Easy_Writer.md)
 * Thai Word (aka. Thai WordStar)
 * Venus Word Processor
 * Word Lampang (เวิร์ดลำปาง) (ลำปางเอกสาร)
