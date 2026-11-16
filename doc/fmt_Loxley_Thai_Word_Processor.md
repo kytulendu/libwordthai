@@ -1,6 +1,6 @@
 # Loxley Thai Word Processor File Format
 
-This software use Loxley Thai character encoding.
+This software use [Loxley](code_other.md#loxley) Thai character encoding.
 
 While Loxley Thai character encoding have table and Thai number characters, this software did not use or support it.
 
