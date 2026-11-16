@@ -21,7 +21,7 @@
 ## ลิงค์ดาวน์โหลด
 
 * [Alonggod collection บน Internet Archive](https://archive.org/details/alonggod-collection)
-* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Alonggod (อลงกต)`
+* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Alonggod (อลงกต)/`
 
 ## อ้างอิง
 

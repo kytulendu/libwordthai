@@ -12,8 +12,13 @@ To switch Thai/English input, press Scroll Lock key.
 
 The software use Loxley Thai character encoding, document can be convert to/from TIS-620 or Loxey character encoding using the included `CP.COM` TSR (use Ctrl+Left Shift key) or Thai System Manager (TSM) File Converter Utility.
 
-Information on Loxley Thai character encoding:
-https://github.com/kytulendu/libwordthai/blob/master/doc/code_other.md#loxley
+## File Format
 
-Loxley Thai Word Processor file format:
-https://github.com/kytulendu/libwordthai/blob/master/doc/fmt_Loxley_Thai_Word_Processor.md
+[Loxley Thai character encoding](code_other.md#loxley)
+
+[File Format](fmt_Loxley_Thai_Word_Processor.md)
+
+## Download
+
+* [Loxley Thai Word Processor 4.0 on Internet Archive](https://archive.org/details/loxley-thai-word-processor-4.0_202608)
+* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) in `PC/Office/`

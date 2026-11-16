@@ -109,7 +109,7 @@
 * [CU-Writer collections บน Internet Archive](https://archive.org/details/cu-writer)
 * [ftp://ftp.cs.washington.edu/pub/thaisys/software/dos/cu-writer/](ftp://ftp.cs.washington.edu/pub/thaisys/software/dos/cu-writer/)
 * [รหัสต้นฉบับของซียูไรเตอร์ รุ่น 1.41 บน GitHub](https://github.com/kytulendu/CW141)
-* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/CU-Writer`
+* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/CU-Writer/`
 
 ## คู่มือ
 

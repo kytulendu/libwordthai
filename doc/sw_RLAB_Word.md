@@ -15,3 +15,8 @@ RLAB Word Editor Graphic Preview
 RLAB Word is a Thai/English WYSIWYG word processor program running on MS-DOS from R.LAB and Consultant Co.,Ltd.
 
 This software have integrated graphics and drawing tools functionality.
+
+## Download
+
+* [RLAB Word 4.0 on Internet Archive](https://archive.org/details/rlab-word-4.0)
+* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) in `PC/Office/RLAB Word/`

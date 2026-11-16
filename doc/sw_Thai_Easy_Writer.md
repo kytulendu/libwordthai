@@ -37,7 +37,7 @@
 * [Thai Easy Writer 4.1 (1985) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.1/)
 * [Thai Easy Writer 4.2 (1986) บน Internet Archive](https://archive.org/details/thai-easy-writer-4.2/)
 * [Thai Easy Writer 4.2 บน Vetusware](https://vetusware.com/download/Thai%20Easy%20Writer%204.2%20TH/?id=18067)
-* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Thai Easy Writer`
+* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Thai Easy Writer/`
 
 ## อ้างอิง
 

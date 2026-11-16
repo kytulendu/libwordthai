@@ -51,7 +51,7 @@
 ## ลิงค์ดาวน์โหลด
 
 * [Rajavithi Word PC collections บน Internet Archive](https://archive.org/details/rajavithi-word-pc)
-* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Rajavithi Word PC`
+* [Khralkatorrix's Thai Software Archive](https://mega.nz/folder/n9MDlbhB#33wlBLjLgh_tTo7NVkcxRQ) ใน `PC/Office/Rajavithi Word PC/`
 
 ## คู่มือ
 
