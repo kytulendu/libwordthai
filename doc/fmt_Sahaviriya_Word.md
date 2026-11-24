@@ -25,9 +25,14 @@ The file header is 560 bytes long.
 | 444    | 8    | xx ...      | Date of document modified, 8 bytes, in DD/MM/YY format, default is "  /  /  " |
 | 452    | 8    | xx ...      | Time of document modified, 8 bytes, in HH:MM:SS format, default is "  :  :  " |
 | 460    | 4    | 00 00 00 00 |  |
-| 464    | 96   | xx ...      |  |
-| 560    |      |             | start of text data |
+| 464    | 6    | xx ...      |  |
+| 470    | 8    | xx ...      | Encrypted password, use date/time of file creation as seed? |
+| 478    | 2    | 04 02       |  |
+| 480    | 35   | 00 00 ...   |  |
+| 515    | 42   | xx ...      |  |
+| 557    |      |             | start of text data |
 
 ## Text data
 
+4 bytes control code followed by text data, if the text data is null (0x00) it is empty line.
 
